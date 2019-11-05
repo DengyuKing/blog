@@ -1,0 +1,17 @@
+# GFS 文件系统概念
+## 1 GFS文件系统架构
+
+## 2 GFS一致性模型
+## 3 GFS读取文件过程
+   1 client 客户端发起读文件请求，发送文件名和偏移位置（此处需要确定具体的读文件的细节）到master，master通过查看自身保存的名称空间信息，查找到文件对应的有效的chunk块（在租约内的，且与服务器保持良好的通信，master应该返回chunk块和其对应的主机地址，这样，client就能根据找到对应的主机），返回到client端，client端首先把master返回的信息缓存到本地，然后向chunk服务器发送读取文件命令。
+   chunk服务器接收到读取文件命令后，获取对应chunk的内容，取到chunk的checknum字段，校验文件的信息
+## 4 GFS写文件过程
+## 5 GFS容灾管理
+## 6 GFS高可用
+
+# HDFS 概念
+## HDFS读文件过程
+   
+## HDFS写文件过程
+  HDFS写文件时，利用了管线（相当于一个链表，从前往后访问）的概念，首先client客户端访问nameNode节点创建文件，nameNode节点分配存储文件所需的dataNode,client端保持两个队列，数据队列（A）和确认队列（B），写入管线的数据由A移动到B，当client端从管线中所有的dataNode接收到确认队列中数据包的确认消息时，client端把确认队列的已确认的数据包删除，进行下一个操作。当管线中的dataNode写入失败时，clenit端记录写入失败的dataNode ,并向nameNode节点申请新的dataNode ，加入管线（此时可以把管线中没有出错的dataNode中的数据块复制到新的dataNode中），HDFS权威指南中写到，把确认队列中的数据重新写入到数据队列的前端，此时，由于管线中的部分dataNode已经写成功了，再次写会发生重复写的bug，这一块有点难理解。
+  HDFS 一致性
