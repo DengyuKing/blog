@@ -1,0 +1,10 @@
+digraph gfsSystem {
+    node [shape = record];
+   
+
+    master->主chunkServer
+    clent->master
+    clent->主chunkServer
+    master->chunkServer2
+    master->chunkServer3
+}
