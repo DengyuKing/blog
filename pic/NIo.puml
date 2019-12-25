@@ -1,0 +1,123 @@
+@startuml
+
+interface Closeable{
+
+}
+
+abstract Selector{
+}
+
+abstract AbstractSelector{
+}
+
+abstract class SelectorImpl{
+}
+
+class WindowsSelectorImpl{
+}
+
+Abstract SelectorProvider{
+}
+
+abstract class SelectorProviderImpl{
+}
+
+class WindowsSelectorProvider{
+}
+
+
+'selectKey定义
+
+abstract SelectionKey{
+}
+
+abstract AbstractSelectionKey{
+}
+
+class SelectionKeyImpl{
+}
+
+
+'channel定义
+interface Channel{
+isopen()
+close()
+}
+
+interface InterruptibleChannel{
+
+}
+
+abstract AbstractInterruptibleChannel {
+}
+
+abstract SelectableChannel {
+}
+
+
+interface NetworkChannel{
+}
+
+interface AbstractSelectableChannel{
+}
+
+interface SelChImpl{
+}
+interface ReadableByteChannel{
+}
+
+interface WritableByteChannel{
+}
+interface ByteChannel{
+}
+
+
+
+abstract ServerSocketChannel {
+}
+
+class ServerSocketChannelImpl{
+}
+
+abstract SocketChannel {
+}
+
+Closeable<|.. Selector
+Selector<|..AbstractSelector
+AbstractSelector<|--SelectorImpl
+SelectorImpl<|--WindowsSelectorImpl
+
+SelectorProvider<|..SelectorProviderImpl
+
+SelectorProviderImpl<|--WindowsSelectorProvider
+
+AbstractSelector-right->SelectorProvider
+
+SelectionKey<|--AbstractSelectionKey
+AbstractSelectionKey<|--SelectionKeyImpl
+
+Closeable<|--Channel
+Channel<|--NetworkChannel
+Channel<|--InterruptibleChannel
+Channel<|--AbstractInterruptibleChannel
+
+
+InterruptibleChannel<|--AbstractInterruptibleChannel
+Channel<|..SelectableChannel
+Channel<|--SelChImpl
+Channel<|--ReadableByteChannel
+Channel<|--WritableByteChannel
+AbstractInterruptibleChannel<|--SelectableChannel
+SelectableChannel<|--AbstractSelectableChannel
+
+NetworkChannel<|..ServerSocketChannel
+AbstractSelectableChannel<|--ServerSocketChannel
+
+ServerSocketChannel<|--ServerSocketChannelImpl
+SelChImpl<|..ServerSocketChannelImpl
+
+AbstractSelectableChannel<|--SocketChannel
+SelChImpl<|..SocketChannel
+
+
+@enduml
