@@ -1,12 +1,12 @@
 digraph java_memory_model{
+    charset="UTF-8"
     rankdir=LR
     tilte="Java内存模型"
-    rank="min"
    
 
-    main_memory[label="主内存" shape="rect" ]
-    work_memory1[label="工作内存" shape="rect"]
-    cpu[label="处理器" shape="rect"]
+    main_memory[label="Main Memory" shape="rect" ]
+    work_memory1[label="Work MeMory" shape="rect"]
+    cpu[label="CPU" shape="rect"]
     main_memory->work_memory1[label="1-read"]
     work_memory1->work_memory1[label="2-load"]
     work_memory1->cpu[label="3-use"]
