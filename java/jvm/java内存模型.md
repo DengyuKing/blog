@@ -10,6 +10,7 @@ Java中，变量创建在主存中进行，其后对主存变量中的任何修�
 Java中对内存的操作分为8种，分别为read,load ,use ,assign,store,write ,lock ,unlock。图片展示了这八种操作各自作用的对象以及读写一个变量时八种操作的执行顺序
 <center>
 <img src="./pic/java内存模型.png">
+
 图1 Java内存操作
 </center>
 
