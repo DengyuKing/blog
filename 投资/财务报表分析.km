@@ -1,0 +1,284 @@
+{
+    "root": {
+        "data": {
+            "id": "c102lij43rc0",
+            "created": 1583123932752,
+            "text": "财务报表分析"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c102t6ehdk00",
+                    "created": 1583124533264,
+                    "text": "资产负债表",
+                    "layout_mind_offset": {
+                        "x": -32,
+                        "y": -3
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c102m9c6gfk0",
+                            "created": 1583123991106,
+                            "text": "资产"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c102nibm6v40",
+                                    "created": 1583124089027,
+                                    "text": "经营性资产",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c102nu4pktc0",
+                                            "created": 1583124114731,
+                                            "text": "货币"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c102nvt19mw0",
+                                            "created": 1583124118378,
+                                            "text": "债权"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c102o33upug0",
+                                            "created": 1583124134270,
+                                            "text": "存货"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c102ocveq7c0",
+                                            "created": 1583124155527,
+                                            "text": "固定资产类"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c102oslaq3c0",
+                                            "created": 1583124189744,
+                                            "text": "无形资产类"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c103itml7ns0",
+                                    "created": 1583126542924,
+                                    "text": "投资性资产"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c103j06t6wo0",
+                                            "created": 1583126557207,
+                                            "text": "投资类"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c102tebn7yw0",
+                            "created": 1583124550506,
+                            "text": "负债"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1036wc6bps0",
+                                    "created": 1583125608455,
+                                    "text": "经营性负债"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10379r5vt40",
+                                    "created": 1583125637659,
+                                    "text": "金融性负债",
+                                    "note": "企业有"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1038mmx0680",
+                            "created": 1583125744065,
+                            "text": "股东权益"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1038t109ww0",
+                                    "created": 1583125757977,
+                                    "text": "股东入资"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c1038vu7h540",
+                                    "created": 1583125764097,
+                                    "text": "利润积累"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c103o8l6ieg0",
+                    "created": 1583126967311,
+                    "text": "现金流量表"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c102n0qe2ts0",
+                            "created": 1583124050738,
+                            "text": "经营活动",
+                            "layout_mind_offset": {
+                                "x": -4,
+                                "y": 4
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c103kb8e0rc0",
+                                    "created": 1583126659612,
+                                    "text": "经营活动流入量"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c103l6tmtao0",
+                                            "created": 1583126728376,
+                                            "text": "销售商品"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c103l9u7rnc0",
+                                            "created": 1583126734942,
+                                            "text": "提供劳务"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c103kh2a0n40",
+                                    "created": 1583126672303,
+                                    "text": "经营活动流出量"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c103mt0kgyw0",
+                                            "created": 1583126855049,
+                                            "text": "采购商品"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c103muy2e8g0",
+                                            "created": 1583126859251,
+                                            "text": "支付职工费用"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c103myohmmw0",
+                                            "created": 1583126867379,
+                                            "text": "支付各种税费"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c103on2y7l40",
+                            "created": 1583126998861,
+                            "text": "投资活动"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c103ouprcko0",
+                                    "created": 1583127015477,
+                                    "text": "投资收入"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c103oxa5hdc0",
+                                    "created": 1583127021064,
+                                    "text": "投资流出"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c102n5yoayo0",
+                    "created": 1583124062123,
+                    "text": "利润表"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c103d6e85g80",
+                            "created": 1583126100532,
+                            "text": "收入"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c103ddrmx9k0",
+                            "created": 1583126116580,
+                            "text": "支出"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}
