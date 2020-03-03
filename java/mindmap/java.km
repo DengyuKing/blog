@@ -1,0 +1,416 @@
+{
+    "root": {
+        "data": {
+            "id": "c10szvyywk80",
+            "created": 1583198407965,
+            "text": "java"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c10t1072dls0",
+                    "created": 1583198495526,
+                    "text": "java基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c10t13hgddc0",
+                            "created": 1583198502684,
+                            "text": "序列化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t15y8rpk0",
+                            "created": 1583198508054,
+                            "text": "异常"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t4ad5pjs0",
+                            "created": 1583198752754,
+                            "text": "IO"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t3ejxxeo0",
+                            "created": 1583198683507,
+                            "text": "线程"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10tcwtjju80",
+                                    "created": 1583199428547,
+                                    "text": "线程池"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10tcynwa3c0",
+                                    "created": 1583199432560,
+                                    "text": "同步"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10tg3xrcjs0",
+                                            "created": 1583199679132,
+                                            "text": "阻塞同步sync ",
+                                            "note": "# sychronized关键字\n\nsychronized关键字是java中用于同步的关键字。主要用法为同步代码块和同步代码方法。\n\n## 同步代码方法\n···\nclass Demo{\n//修饰实例方法\nsychronized void test(){\n\t}\n//修饰类方法\nsychronized static void test1(){\n\t}\n    \n    \n}\n···\nsychronized 用于同步代码方法时，其底层实现为同步方法常量池增加ACC_SYNCHRONIZED关键字，如果其他线程想要调用这个方法时，首先要获取调用该方法的对象的锁(静态方法为获取类对象锁)\n\n## 同步代码块\nsychronized 用于同步代码块时，同步代码块使用monitorenter和monitorexit两个关键字获取锁和释放锁。\nsychronized在同步代码块时，会根据以下规则选择被锁的对象\n\n当传入对象时，锁住当前对象\nsychronized (object)\n在静态同步方法内，锁住当前类对象\n在普通方法内 锁住当前对象\n\n## sychronized底层实现逻辑对象监视器\nsychronized底层采用的是对象监视器机制对线程进行同步\n\n如果当前对象被某一个线程所占有，则其他线程进入阻塞状态等待。并且这种阻塞等待是不可被中断的。\n\n",
+                                            "progress": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tg7zyd400",
+                                            "created": 1583199687972,
+                                            "text": "轻量级同步volitile"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgcc0h3c0",
+                                            "created": 1583199697408,
+                                            "text": "非阻塞同步"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c115j0a93js0",
+                                                    "created": 1583233759592,
+                                                    "text": " CAS",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c115f303msg0",
+                                                            "created": 1583233452052,
+                                                            "text": "AQS"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115fe8ygtc0",
+                                                    "created": 1583233476532,
+                                                    "text": "theadLocal"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115fjqjh7k0",
+                                                    "created": 1583233488479,
+                                                    "text": "常量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c10t3gpiwog0",
+                            "created": 1583198688199,
+                            "text": "对象复制"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t4kt2ryg0",
+                            "created": 1583198775485,
+                            "text": "集合"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10t4nqtig80",
+                                    "created": 1583198781878,
+                                    "text": "map"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10u4vxcriw0",
+                                            "created": 1583201620798,
+                                            "text": "HashMAP"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c115gxzfw480",
+                                                    "created": 1583233597856,
+                                                    "text": "hash方法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115h0i98aw0",
+                                                    "created": 1583233603348,
+                                                    "text": "扩容机制"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115h4tpqxc0",
+                                                    "created": 1583233612748,
+                                                    "text": "红黑树 "
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10u4yd3gwo0",
+                                            "created": 1583201626103,
+                                            "text": "TreeMap"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10u533yjy80",
+                                            "created": 1583201636435,
+                                            "text": "LinkedHashMap"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c115ihj6m000",
+                                                    "created": 1583233718773,
+                                                    "text": "hash方法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115ijsr09s0",
+                                                    "created": 1583233723705,
+                                                    "text": "扩容机制"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115ina6b6o0",
+                                                    "created": 1583233731289,
+                                                    "text": "具有的特性"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c115irqijyo0",
+                                                            "created": 1583233740984,
+                                                            "text": "LRU"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c10t4qjk6tc0",
+                                    "created": 1583198787970,
+                                    "text": "List"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10t4rt30o00",
+                                    "created": 1583198790722,
+                                    "text": "set"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c10t1pn36pc0",
+                    "created": 1583198550914,
+                    "text": "jvm"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c10t208e7ww0",
+                            "created": 1583198573970,
+                            "text": "Java虚拟机模型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t25bp16w0",
+                            "created": 1583198585053,
+                            "text": "垃圾回收机制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10t5jwhcpk0",
+                                    "created": 1583198851878,
+                                    "text": "对象存活"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10t5psz4yo0",
+                                    "created": 1583198864727,
+                                    "text": " 垃圾回收器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10t6jpy2bc0",
+                                            "created": 1583198929847,
+                                            "text": "topic"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2i2r4800",
+                            "created": 1583198612811,
+                            "text": "并发"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2ohp2e00",
+                            "created": 1583198626775,
+                            "text": "类加载"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2qxlo5c0",
+                            "created": 1583198632091,
+                            "text": "调优"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2xy0mlk0",
+                            "created": 1583198647353,
+                            "text": "java内存模型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10tdymeuxc0",
+                                    "created": 1583199510834,
+                                    "text": "volitile关键字"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10te5734eo0",
+                                    "created": 1583199525145,
+                                    "text": "先行发生原则"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10tev0llls0",
+                                    "created": 1583199581349,
+                                    "text": "Java锁机制"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10tgln2i800",
+                                            "created": 1583199717668,
+                                            "text": "乐观锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgpxxn9s0",
+                                            "created": 1583199727032,
+                                            "text": "悲观锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgs7nec00",
+                                            "created": 1583199731973,
+                                            "text": "独占锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgzyo2xc0",
+                                            "created": 1583199748844,
+                                            "text": "共享锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10th2nz2kg0",
+                                            "created": 1583199754728,
+                                            "text": "公平锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10u0lqrag00",
+                                            "created": 1583201285174,
+                                            "text": "锁优化"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}
