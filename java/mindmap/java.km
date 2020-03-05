@@ -279,7 +279,107 @@
                                     "created": 1583198851878,
                                     "text": "对象存活"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c12ip4vn1s00",
+                                            "created": 1583372474163,
+                                            "text": "引用计数"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c12ip7ispkg0",
+                                            "created": 1583372479917,
+                                            "text": "可达性分析"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c12ipvowzc00",
+                                                    "created": 1583372532529,
+                                                    "text": "GCROOT"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c12iq2ndag80",
+                                                            "created": 1583372547673,
+                                                            "text": "虚拟机栈中引用的对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c12iq3l3krs0",
+                                                            "created": 1583372549713,
+                                                            "text": "方法区静态属性引用的对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c12iq3zjj5s0",
+                                                            "created": 1583372550586,
+                                                            "text": "方法区常量引用的对象"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c12iq4bqbvs0",
+                                                            "created": 1583372551323,
+                                                            "text": "本地方法栈中的对象"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c12ipxf4xdc0",
+                                                    "created": 1583372536292,
+                                                    "text": "引用"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c12irhj4oqw0",
+                                                            "created": 1583372658433,
+                                                            "text": "强引用"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c12irlj37q80",
+                                                            "created": 1583372667138,
+                                                            "text": "弱引用"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c12irps68ug0",
+                                                            "created": 1583372676394,
+                                                            "text": "软引用"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c12irrmyfj40",
+                                                            "created": 1583372680432,
+                                                            "text": "虚引用"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -292,7 +392,7 @@
                                         "data": {
                                             "id": "c10t6jpy2bc0",
                                             "created": 1583198929847,
-                                            "text": "topic"
+                                            "text": "都是佛挡杀"
                                         },
                                         "children": []
                                     }
