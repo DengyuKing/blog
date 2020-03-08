@@ -1,0 +1,81 @@
+{
+    "root": {
+        "data": {
+            "id": "c13bo1lhzps0",
+            "created": 1583454200842,
+            "text": "中间件",
+            "note": "知荣辱，勤锻炼，打造技术硬实力！"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c13bo4si9k00",
+                    "created": 1583454207797,
+                    "text": "Netty"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c13bob6s3so0",
+                    "created": 1583454221720,
+                    "text": "Redis"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13brmpftco0",
+                            "created": 1583454481886,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bogqf2ds0",
+                    "created": 1583454233792,
+                    "text": "ES"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c13bojfviqw0",
+                    "created": 1583454239684,
+                    "text": "RPC"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c13boq8fp2o0",
+                    "created": 1583454254472,
+                    "text": "MQ "
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bpbzmuq80",
+                            "created": 1583454301829,
+                            "text": "kfaka"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bpr0dc400",
+                    "created": 1583454334525,
+                    "text": "ZK"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

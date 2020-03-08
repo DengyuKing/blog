@@ -10,17 +10,13 @@
                 "data": {
                     "id": "c10t1072dls0",
                     "created": 1583198495526,
-                    "text": "java基础"
+                    "text": "java基础",
+                    "layout_mind_offset": {
+                        "x": 1,
+                        "y": -319.0000002682209
+                    }
                 },
                 "children": [
-                    {
-                        "data": {
-                            "id": "c10t13hgddc0",
-                            "created": 1583198502684,
-                            "text": "序列化"
-                        },
-                        "children": []
-                    },
                     {
                         "data": {
                             "id": "c10t15y8rpk0",
@@ -64,8 +60,8 @@
                                             "id": "c10tg3xrcjs0",
                                             "created": 1583199679132,
                                             "text": "阻塞同步sync ",
-                                            "note": "# sychronized关键字\n\nsychronized关键字是java中用于同步的关键字。主要用法为同步代码块和同步代码方法。\n\n## 同步代码方法\n···\nclass Demo{\n//修饰实例方法\nsychronized void test(){\n\t}\n//修饰类方法\nsychronized static void test1(){\n\t}\n    \n    \n}\n···\nsychronized 用于同步代码方法时，其底层实现为同步方法常量池增加ACC_SYNCHRONIZED关键字，如果其他线程想要调用这个方法时，首先要获取调用该方法的对象的锁(静态方法为获取类对象锁)\n\n## 同步代码块\nsychronized 用于同步代码块时，同步代码块使用monitorenter和monitorexit两个关键字获取锁和释放锁。\nsychronized在同步代码块时，会根据以下规则选择被锁的对象\n\n当传入对象时，锁住当前对象\nsychronized (object)\n在静态同步方法内，锁住当前类对象\n在普通方法内 锁住当前对象\n\n## sychronized底层实现逻辑对象监视器\nsychronized底层采用的是对象监视器机制对线程进行同步\n\n如果当前对象被某一个线程所占有，则其他线程进入阻塞状态等待。并且这种阻塞等待是不可被中断的。\n\n",
-                                            "progress": 1
+                                            "note": "# sychronized关键字\n\nsychronized关键字是java中用于同步的关键字。主要用法为同步代码块和同步代码方法。\n\n## 同步代码方法\n···\nclass Demo{\n//修饰实例方法\nsychronized void test(){\n\t}\n//修饰类方法\nsychronized static void test1(){\n\t}\n    \n    \n}\n···\nsychronized 用于同步代码方法时，其底层实现为同步方法常量池增加ACC_SYNCHRONIZED关键字，如果其他线程想要调用这个方法时，首先要获取调用该方法的对象的锁(静态方法为获取类对象锁)\n\n## 同步代码块\nsychronized 用于同步代码块时，同步代码块使用monitorenter和monitorexit两个关键字获取锁和释放锁。\nsychronized在同步代码块时，会根据以下规则选择被锁的对象\n\n当传入对象时，锁住当前对象\nsychronized (object)\n在静态同步方法内，锁住当前类对象\n在普通方法内 锁住当前对象\n\n## sychronized底层实现逻辑对象监视器\nsychronized底层采用的是对象监视器机制对线程进行同步。\n\n如果当前对象被某一个线程所占有，则其他线程进入阻塞状态等待。并且这种阻塞等待是不可被中断的。\n\nsychronized关键字既然是采用阻塞方法保证线程的同步，那么必然会涉及到线程的调度。线程从阻塞态变成就绪态再到执行状态，没有乐观锁的线程从就绪态到执行状态这种更直接的方式效率高\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                                            "progress": null
                                         },
                                         "children": []
                                     },
@@ -128,9 +124,35 @@
                         "data": {
                             "id": "c10t3gpiwog0",
                             "created": 1583198688199,
-                            "text": "对象复制"
+                            "text": "对象克隆",
+                            "note": "1 为什么要进行对象复制呢？直接New一个对象出来不行吗？\n答：对象复制适用于那些需要创建一个拥有当前状态的对象，而直接new一个对象，对象的所有属性都处于初始化状态。\n\nJava克隆时，对于克隆后的a,b两个对象，如果对象里都是byte char String long ,int 等 a对象更改这些基本属性，不会影响到b的值\n\n当对象a里有引用对象的时候，如果人为的改变次引用类型的值，则可能影响到b的值。\n\n如果一个对象有多层引用关系时，这个时候需要引用的子对象先实现clone接口，然后在当前对象实现子对象的克隆，来实现多级对象复制（深复制）\n\n解决多层复制的的另外一个方法是实现对象序列化。\n"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c13c22o3its0",
+                                    "created": 1583455300275,
+                                    "text": "深复制"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c13c265jkew0",
+                                    "created": 1583455307860,
+                                    "text": "浅复制"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c13ktws0rs00",
+                                    "created": 1583480050527,
+                                    "text": "序列化"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -143,15 +165,15 @@
                                 "data": {
                                     "id": "c10t4nqtig80",
                                     "created": 1583198781878,
-                                    "text": "map",
-                                    "note": "JavaMap的结构"
+                                    "text": "map"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c10u4vxcriw0",
                                             "created": 1583201620798,
-                                            "text": "HashMAP"
+                                            "text": "HashMAP",
+                                            "note": "HashMap与hashTable一样，提供了Map的基础操作，并且支持Key为null,value为null的情况。它与hashTable的区别在于不支持多线程操作。hashMap不能保证元素的插入顺序和取出顺序是一致的。\n\nhashMap能够在常数时间内查找元素，遍历hashMap与hashMap中元素的个数成正比。\n\nhashMap有两个很重要的参数，初始容量和负载因子，初始容量指的是hashMap中桶的数量（不是hashMap中所有所有元素的数量），负载因子是指当HashMap中被用到的桶占总的桶数的比例所设定的阈值，当HashMap中这个比例达到设定的阈值时，此时需要自动扩容。\n\n作为一个通用的规则，默认0.75的负载因子在时间和空间的花销上做了一个均衡，高的负载因子可以减少在空间的开销，但是增加了查找的开销。当设定map的初始大小时，应该充分考虑map需要容纳的实体数量和负载因子。当map的初始容量原大于容器所需要装纳的实体乘以负载因子时，就不需要扩容。\n\n通常来说，创建一个大点的map以容纳足够多的元素的方式比一开始创建一个容量比较小，后期扩容的方式要高效的多。当多个key映射到一个hashCode时，会影响map的性能，为了减少这种冲突，当key是可比较的时候，\n\n由于此Map没有实现同步功能，当多个线程并发的访问hashMap是 ，尤其是当一个线程修改了hashMap的结构（修改HashMap的结构指的是增加或减少了一个key-value对，如果只是针对一个已经在hashMap中的key ,更新其对应的value，不属于修改HashMap的结构），\n通常需要在影响hashMap的key-value上做同步。\n\n如果不能用以上的方法做同步的话，需要使用Collections.synchronizedMap(new HashMap(...))做同步。\n\nHashMap的迭代器是基于fail-fast机制的，在迭代器被创建之后，如果通过迭代器以外的方法修改了map的结构，则迭代器马上刨出异常！\n\n不能保证迭代器的fail-fast机制在任意情况下都能准确的抛出异常。所以不能依赖迭代器的fail-fast机制保证程序的正确性，正确的做法是使用fail-fast机制可以用来检测程序bug。\n\n\n\nNode<K,V> [] table\n\nHashMap resize \n\n当HashMap中的元素的个数大于 设定的负载阈值时，此时需要扩容。考虑一种极端的情况。对于一个容量为16，负载因子为0.75的HashMap,存入的数量超过11个时，此时需要扩容。\n\n\n\n\n\n\n"
                                         },
                                         "children": [
                                             {
@@ -185,6 +207,15 @@
                                             "id": "c10u4yd3gwo0",
                                             "created": 1583201626103,
                                             "text": "TreeMap"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c14lzpcqboo0",
+                                            "created": 1583584885617,
+                                            "text": "CurrentHashMap",
+                                            "note": "HashTable在修改get和Put方法都使用了synchornizd 关键字，这样每次get或者put的时候都需要锁定整个hashMap,这样的成本是很高的。\n\nCurrentHashMap(CHM)\nCHM 在取出元素时没有实现同步，所以会出现刚刚取出的值被更改或者被删除的情况。CHM的获取元素的结果，受到在CHM其他操作的影响（可能被修改，也可能被删除）。对CHM中的数据的修改happen-before 对CHM中数据的获取。\n\n在CHM中 对于批量操作（putall or clear）,获取的结果可能是批量操作后增加或删除的部分结果。同样，在一个线程创建迭代器之后，其他线程针对CHM的修改也不会抛出异常。时刻警惕，在没有其他线程并发修改CHM的前提下，size,empty等方法才能返回当前正确的结果。\n\n与hashTable一样，CHM中不允许null值作为key或者value的值,而HashMap是允许key值或者value值为空的\n\n如果只关心CHM的Key集合，可以用entrySet方法获取CHM的key集合\n\nCHM中插入元素时，锁定的是什么？锁定的是链表的头结点。\n\n\n\n"
                                         },
                                         "children": []
                                     },
@@ -229,31 +260,6 @@
                                                 ]
                                             }
                                         ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "c12ovwr0yvk0",
-                                            "created": 1583389931678,
-                                            "text": "多线程机制"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "c12ow2uonxk0",
-                                                    "created": 1583389944960,
-                                                    "text": "hashTable"
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c12ow58kp6o0",
-                                                    "created": 1583389950154,
-                                                    "text": "CorrentHashMap"
-                                                },
-                                                "children": []
-                                            }
-                                        ]
                                     }
                                 ]
                             },
@@ -270,14 +276,6 @@
                                     "id": "c10t4rt30o00",
                                     "created": 1583198790722,
                                     "text": "set"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c12oxwp843c0",
-                                    "created": 1583390088298,
-                                    "text": "原子类"
                                 },
                                 "children": []
                             }
@@ -313,115 +311,7 @@
                                     "created": 1583198851878,
                                     "text": "对象存活"
                                 },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "c12ip4vn1s00",
-                                            "created": 1583372474163,
-                                            "text": "引用计数"
-                                        },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "c12ip7ispkg0",
-                                            "created": 1583372479917,
-                                            "text": "可达性分析"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "c12ipvowzc00",
-                                                    "created": 1583372532529,
-                                                    "text": "GCROOT"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c12iq2ndag80",
-                                                            "created": 1583372547673,
-                                                            "text": "虚拟机栈中引用的对象"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12iq3l3krs0",
-                                                            "created": 1583372549713,
-                                                            "text": "方法区静态属性引用的对象"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12iq3zjj5s0",
-                                                            "created": 1583372550586,
-                                                            "text": "方法区常量引用的对象"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12iq4bqbvs0",
-                                                            "created": 1583372551323,
-                                                            "text": "本地方法栈中的对象"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12s3ycztw80",
-                                                            "created": 1583399025426,
-                                                            "text": "枚举根节点"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c12ipxf4xdc0",
-                                                    "created": 1583372536292,
-                                                    "text": "引用"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c12irhj4oqw0",
-                                                            "created": 1583372658433,
-                                                            "text": "强引用"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12irlj37q80",
-                                                            "created": 1583372667138,
-                                                            "text": "弱引用"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12irps68ug0",
-                                                            "created": 1583372676394,
-                                                            "text": "软引用"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c12irrmyfj40",
-                                                            "created": 1583372680432,
-                                                            "text": "虚引用"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
+                                "children": []
                             },
                             {
                                 "data": {
@@ -434,7 +324,7 @@
                                         "data": {
                                             "id": "c10t6jpy2bc0",
                                             "created": 1583198929847,
-                                            "text": "分类与自主"
+                                            "text": "topic"
                                         },
                                         "children": []
                                     }
@@ -444,9 +334,18 @@
                     },
                     {
                         "data": {
+                            "id": "c10t2i2r4800",
+                            "created": 1583198612811,
+                            "text": "并发"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
                             "id": "c10t2ohp2e00",
                             "created": 1583198626775,
-                            "text": "类加载"
+                            "text": "类加载",
+                            "note": "Java类加载器机制的基本框架\n\n编写日常插件需要注意的问题\n\n类加载中的问题\n\n为什么要有双亲委派模型呢？\n答：Java语言为了确保一些最基础的类被加载后，才能加载在这些类基础之上的其他的类。为此定义了一种规则，这种规则要求如果要加载一个类，需要判断系统是否已经加载过这个类，如果系统已经加载过这个类了，那么就不需要再去加载，以免引起混淆！"
                         },
                         "children": []
                     },
@@ -539,6 +438,133 @@
                                 ]
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bs8yq07c0",
+                    "created": 1583454530336,
+                    "text": "Java特性",
+                    "layout_mind_offset": {
+                        "x": -544,
+                        "y": -42
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bu7maasg0",
+                            "created": 1583454684136,
+                            "text": "封装性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bu95shyo0",
+                            "created": 1583454687492,
+                            "text": "继承性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bud3azu80",
+                            "created": 1583454696049,
+                            "text": "多态"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bsgxtrds0",
+                    "created": 1583454547696,
+                    "text": "面向对象六大原则"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bui43bpc0",
+                            "created": 1583454706980,
+                            "text": "开闭原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvdj5nm00",
+                            "created": 1583454775371,
+                            "text": "里氏替换原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvj8tj540",
+                            "created": 1583454787807,
+                            "text": "依赖倒转原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvpzv4u80",
+                            "created": 1583454802503,
+                            "text": "接口隔离原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvsyvot40",
+                            "created": 1583454808974,
+                            "text": "最少知道原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvxj23bk0",
+                            "created": 1583454818901,
+                            "text": "单一职责原则"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bumoongg0",
+                    "created": 1583454716932,
+                    "text": "设计模式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bzxbwmh40",
+                            "created": 1583455131925,
+                            "text": "创建型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13c01kcy5c0",
+                            "created": 1583455141144,
+                            "text": "行为型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13c056zmio0",
+                            "created": 1583455149042,
+                            "text": "结构型"
+                        },
+                        "children": []
                     }
                 ]
             }
