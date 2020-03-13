@@ -26,5 +26,6 @@
 24 projection 投射，reject拒绝
 25 scalable frequency 经常变动的 scalable 的含义是可伸缩的
 26 histogram 直方图
+27 crucial 至关重要的
 
 
