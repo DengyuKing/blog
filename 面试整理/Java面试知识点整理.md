@@ -1,6 +1,7 @@
 ## JAVA基础
 
 JAVA中的几种基本数据类型是什么，各自占用多少字节。
+
 String类能被继承吗，为什么。
 String，Stringbuffer，StringBuilder的区别。
 ArrayList和LinkedList有什么区别。
