@@ -72,10 +72,61 @@
                     "text": "ZK"
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "c18w867mt5s0",
+                    "created": 1584020000153,
+                    "text": "数据库"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c18w8anrr6o0",
+                            "created": 1584020009836,
+                            "text": "数据库隔离级别",
+                            "note": "# 数据库隔离级别\n\n1 读未提交(具体场景)\n2 读已提交(具体场景)\n3 可重复读\n4 序列化\n已上4种场景只是数据库隔离级别的要保证的目标而已，想要达到这种目标(比如可重复读)，在不同的场景可能要采取不同的办法，比如使用快照技术，在选择更新的场景需要用到读锁，锁是用来实现同步的一个手段，单不是唯一手段！\n\n\n## 背景 (基本问题)\n\n关系数据库中，涉及到对表的操作有读操作，更新操作，插入操作，删除操作\n\n具体可以分为两种场景\n1 读时不能进行更新，插入和删除\n \n2 读时可以进行更新，插入和删除\n\n\n隔离级别\t脏读可能性\t不可重复读可能性\t幻读可能性\t加锁读\nREAD UNCOMMITTED\t是\t是\t是\t否\nREAD COMMITTED\t否\t是\t是\t否\nREPEATABLE READ\t否\t否\t是\t否\nSERIALIZABLE\t否\t否\t否\t是\n\n## InnoDB锁类型和\n\n\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c18w8kmlads0",
+                                    "created": 1584020031532,
+                                    "text": "读未提交"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c18w8o34z8w0",
+                                    "created": 1584020039063,
+                                    "text": "读已提交"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c18w8r70ac80",
+                                    "created": 1584020045827,
+                                    "text": "可重复读"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c18w8um8qpc0",
+                                    "created": 1584020053279,
+                                    "text": "串行读"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "default",
-    "theme": "fresh-blue",
+    "theme": "classic",
     "version": "1.4.43"
 }
