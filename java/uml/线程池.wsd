@@ -1,0 +1,39 @@
+@startuml
+
+interface Excutor{
+    +excute()
+}
+interface ExecutorService{
+
+}
+Excutor <|--ExecutorService
+
+interface ScheduledExecutorService{
+
+}
+ExecutorService<|-- ScheduledExecutorService
+abstract AbstractExecutorService {
+
+}
+ExecutorService<|.. AbstractExecutorService
+
+
+
+class ThreadPoolExecutor{
+
+}
+AbstractExecutorService <|--ThreadPoolExecutor
+
+class ForkJoinPool{
+
+}
+AbstractExecutorService<|-- ForkJoinPool
+
+class ScheduledThreadPoolExecutor{
+
+}
+ThreadPoolExecutor<|--ScheduledThreadPoolExecutor
+ScheduledExecutorService<|..ScheduledThreadPoolExecutor
+
+
+@enduml
