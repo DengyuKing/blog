@@ -46,7 +46,34 @@
                                     "created": 1583199428547,
                                     "text": "线程池"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1g4hpxk3g00",
+                                            "created": 1584754236933,
+                                            "text": "future"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c1gbgkh5jrs0",
+                                                    "created": 1584773894462,
+                                                    "text": "FutureTask",
+                                                    "note": "# FutureTask\n\n1 状态转换\n\tNEW-> COMPLETING -> NORMAL\n    新申请，完成中，最后完成\n    NEW -> COMPLETING-    >EXCEPTIONAL\n    新申请，完成中 ，最后刨出异常\n    NEW -> CANCELLED\n    新申请 被取消\n    NEW -> INTERRUPTING -> INTERRUPTED\n    新申请 中断中，被中断\n    \n set 方法\n \n \n setException方法\n \n 1 get 方法\n \n 假设Task任务正在被线程B执行\n 当前线程A使用get方法时，先判断任务的状态，当任务的状态未完成时，执行以下的步骤循环步骤\n\n 循环开始\n 如果线程A被中断了，把线程A从当前任务的等待队列中移除，并抛出异常。\n \n 线程A判断任务的状态已完成的，释放waitNode的线程，返回完成状态\n \n  判断状态在完成中，线程A主动让出CPU，进入就绪态\n  \n  判断是否可被存储到队列，然后把当前线程A插入等待队列\n  \n  判断是否时间已经到了，如果到了清除等待队列中的线程，\n \n 2 cancel方法\n \n 3 run方法\n \n runAndRest方法\n 在没有抛出异常和被取消的情况下，\n 执行没有返回值的计算任务，然后把任务的状态设置为新申请\n \n handlePossibleCancellationInterrupt方法\n \nawaitDone方法\n\n\n1 为什么FutureTask要有那么多的方法和变量？\n\n2 FutureTask的场景是什么？\n\n\n\n \n "
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1g4hteclg80",
+                                            "created": 1584754244478,
+                                            "text": "topic"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -70,6 +97,15 @@
                                             "id": "c10tg7zyd400",
                                             "created": 1583199687972,
                                             "text": "轻量级同步volitile"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1gdlinowoo0",
+                                            "created": 1584779924544,
+                                            "text": "park",
+                                            "note": "# Park 和unPark\n\npark类似于锁\n\n情况1 \nthreadA.park threadA 将阻塞在 park操作上 ，结束阻塞有两种方法，第一种是被中断，第二种 其他线程调用 unpark\n\n情况2 \n\nthreadA.unpak 有线程对A线程调用了unpark,这个时候，如果线程A被park了\n\nthreadA.park 线程A并不会被阻塞到park上。\n\n\n## 生产者消费者场景\n场景：1\n    \n    消费者先park等待\n    生产者生产完后unpark消费者\n    消费者不会阻塞在park上\n    \n场景：2 \n\t生产者先生产了产品\n    unpark\n    消费者准备好了，消费者park\n    此时由于消费者之前被unpark了，不会阻塞在park上\n    \n总结 对线程的park和unpark只要成对出现，不在乎出现的顺序 线程就不会阻塞，\n\t\n\n\n"
                                         },
                                         "children": []
                                     },
@@ -118,6 +154,41 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1g4tgq483c0",
+                                    "created": 1584755157262,
+                                    "text": "线程方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1g4tm4rd600",
+                                            "created": 1584755169031,
+                                            "text": " "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1g4tt3gy800",
+                                            "created": 1584755184190,
+                                            "text": "interrupt",
+                                            "note": "# 中断方法\n\n1 本线程之外的其他线程调用这个方法时，会执行线程安全检查，如果调用该方法的线程没有权限，则抛出异常\n\n2 当线程A阻塞在wait()方法,join()方法或者sleep() 方法时，线程B调用该方法时，线程A的中断标记会被清除，然后线程A会收到 InterruptedException\n\n3 当线程A在InterruptibleChannelIO上阻塞时，线程B调用该方法，IO流将被关闭，线程的中断标记将被设置，并且收到ClosedByInterruptException异常\n\n4 当线程A在Select上阻塞时，线程B调用该方法时，线程A的中断标记被设置，且线程A马上从Select返回。\n\n5 如果非 2，3，4三种情况，线程的中断标记会被设置\n\n6 中断一个不是活跃状态的线程没有意义！\n\n总结，线程在被中断时，可能处于不同的环境下，针对这些不同的环境，从资源回收和最大利用的角度上，需要采用不同的方法，例如，线程如果阻塞在IO上，如果只是简单的结束线程，IO的资源就不能被很好的释放，所以Java虚拟机为我们做好了这一切。\n\n"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1glho1hdj40",
+                                    "created": 1584802191685,
+                                    "text": "中断",
+                                    "note": "# Java线程中断\n\nJava线程中的中断与操作系统中的中断不太一样，操作系统的中断是指当前线程放弃CPU，去执行中断程序。\n\n而Java中的中断则是在操作系统之上的又一层抽象。\n\nJava中的线程在收到其他线程的中断处理后，可以选择让出CPU，Thread.yield()\n\n同时也可以选择抛出异常！，清除中断位标记等。\n\n总体来说，Java中的线程在不同的场景对中断的处理不一样，具有很大的灵活性\n\n例如 \n\n线程A在wait,sleep,join 阻塞时被中断会抛出中断异常，并且把中断位清除\n\n\n\n"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -270,7 +341,17 @@
                                     "created": 1583198787970,
                                     "text": "List"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1gz8s60fp40",
+                                            "created": 1584840990927,
+                                            "text": "阻塞队列",
+                                            "note": "# 阻塞队列\n\n队列为消费者-生产者模式提供了支持，特殊场景分为两种\n1 当队列为空时，消费者不能消费，只允许生产者放入\n2 当队列满时，生产者不能生产，只允许消费者消费\n\nBlockingQueue 在以上两种场景中有四中不同的策略支持不同的需求\n\n1 抛出异常\n2 返回特殊值\n3 阻塞\n4 超时\n\nBlockingQueue 不接受空值，在add，put ,offer时传空值会抛出异常。空值在阻塞队列中表示poll方法的一个错误。\n\nBlockingQueue通常有一个容量，如果不设定容量，通常容量的大小为INTERGER.MAX\n\n## 方法\n\n1 add() 插入成功时返回true,当队列满了，插入不成功是抛异常\n2 offer() 插入成功时返回true,当队列满了，插入不成功时返回false,当使用容量限制的队列时，推荐使用此方法\n3 put() 插入队列中元素，如果不成功就一直等待，直到插入成功为止\n4 offer(Time)等待一段时间后才返回结果\n\n5 take() 取列头结点，如果取不到就一直阻塞\n\n6 poll() 取列头结点，如果取不到会等待一段时间\n\n7 remove() 移除特定元素，这个方法不是很高效。\n\n8 drainTo() 从队列中删除，转移到一个新的容器里面\n\n\n## 阻塞队列的场景\n\n1 取数据\n2 放数据\n3 检查存在性\n4 遍历队列\n\n\n## 阻塞队列遍历\n\n实行遍历时会创建一个迭代器链，\n迭代器链中保存着对迭代器的弱引用，\n这种处理方法和threadLocal里如出一辙。\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
