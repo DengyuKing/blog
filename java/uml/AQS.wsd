@@ -1,0 +1,26 @@
+@startuml
+start
+:AQS process;
+detach
+:acquireSharedInterruptibly;
+if(thread.isInterrupted) then (yes)
+    :throw Interrupted Exception;
+    end
+endif
+
+if (获取锁成功) then(yes)
+    end
+else (no)
+  : invoke doAcquireSharedInterruptibly;
+  end
+:doAcquireSharedInterruptibly;
+end
+
+:addWaiter;
+
+
+end
+
+
+
+@enduml

@@ -248,6 +248,57 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c1is2ojdlko0",
+                            "created": 1585023884987,
+                            "text": "筹资活动"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1is30lj0u00",
+                                    "created": 1585023911238,
+                                    "text": "现金流入"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1is49b7eo00",
+                                            "created": 1585024008569,
+                                            "text": "发行股票"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1is4cgz4ls0",
+                                            "created": 1585024015449,
+                                            "text": "取得借款"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1is3uvfvds0",
+                                    "created": 1585023977141,
+                                    "text": "现金流出"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1is4jmdbww0",
+                                            "created": 1585024031012,
+                                            "text": "分配股利，支付利息"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -264,7 +315,16 @@
                             "created": 1583126100532,
                             "text": "收入"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c1isb9ngfb40",
+                                    "created": 1585024557859,
+                                    "text": "对外交易，股东给的不算交易"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
