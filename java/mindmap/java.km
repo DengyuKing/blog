@@ -104,7 +104,7 @@
                                             "id": "c10tg3xrcjs0",
                                             "created": 1583199679132,
                                             "text": "阻塞同步sync ",
-                                            "note": "# sychronized关键字\n\nsychronized关键字是java中用于同步的关键字。主要用法为同步代码块和同步代码方法。\n\n## 同步代码方法\n···\nclass Demo{\n//修饰实例方法\nsychronized void test(){\n\t}\n//修饰类方法\nsychronized static void test1(){\n\t}\n    \n    \n}\n···\nsychronized 用于同步代码方法时，其底层实现为同步方法常量池增加ACC_SYNCHRONIZED关键字，如果其他线程想要调用这个方法时，首先要获取调用该方法的对象的锁(静态方法为获取类对象锁)\n\n## 同步代码块\nsychronized 用于同步代码块时，同步代码块使用monitorenter和monitorexit两个关键字获取锁和释放锁。\nsychronized在同步代码块时，会根据以下规则选择被锁的对象\n\n当传入对象时，锁住当前对象\nsychronized (object)\n在静态同步方法内，锁住当前类对象\n在普通方法内 锁住当前对象\n\n## sychronized底层实现逻辑对象监视器\nsychronized底层采用的是对象监视器机制对线程进行同步。\n\n如果当前对象被某一个线程所占有，则其他线程进入阻塞状态等待。并且这种阻塞等待是不可被中断的。\n\nsychronized关键字既然是采用阻塞方法保证线程的同步，那么必然会涉及到线程的调度。线程从阻塞态变成就绪态再到执行状态，没有乐观锁的线程从就绪态到执行状态这种更直接的方式效率高\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                                            "note": "# sychronized关键字\n\nsychronized关键字是java中用于同步的关键字。主要用法为同步代码块和同步代码方法。\n\n## 同步代码方法\n···\nclass Demo{\n//修饰实例方法\nsychronized void test(){\n\t}\n//修饰类方法\nsychronized static void test1(){\n\t}\n    \n    \n}\n···\nsychronized 用于同步代码方法时，其底层实现为同步方法常量池增加ACC_SYNCHRONIZED关键字，如果其他线程想要调用这个方法时，首先要获取调用该方法的对象的锁(静态方法为获取类对象锁)\n\n## 同步代码块\nsychronized 用于同步代码块时，同步代码块使用monitorenter和monitorexit两个关键字获取锁和释放锁。\nsychronized在同步代码块时，会根据以下规则选择被锁的对象\n\n当传入对象时，锁住当前对象\nsychronized (object)\n在静态同步方法内，锁住当前类对象\n在普通方法内 锁住当前对象\n\n## sychronized底层实现逻辑对象监视器\nsychronized底层采用的是对象监视器机制对线程进行同步。\n\n如果当前对象被某一个线程所占有，则其他线程进入阻塞状态等待。并且这种阻塞等待是不可被中断的。\n\nsychronized关键字既然是采用阻塞方法保证线程的同步，那么必然会涉及到线程的调度。线程从阻塞态变成就绪态再到执行状态，没有乐观锁的线程从就绪态到执行状态这种更直接的方式效率高\n\n## 锁升级 锁降级无意义在GC的时候发生\n\n### 偏向锁\n\n### 轻量级锁\n\n### 重量级锁\n\n### 锁消除\n 如果JVM检测到某个对象不会被多个线程访问的话自动把锁去掉\n### 锁粗化\n\nlock comxchg\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                                             "progress": null
                                         },
                                         "children": []
@@ -411,7 +411,8 @@
                         "data": {
                             "id": "c10t25bp16w0",
                             "created": 1583198585053,
-                            "text": "垃圾回收机制"
+                            "text": "垃圾回收机制",
+                            "note": "# 干死面试官系列之垃圾回收\n\n1 垃圾回收器的发展原因和方向\n原因：随着jvm需要管理的堆内存的越来越大，导致了垃圾回收器的更新迭代\n\n方向：从分代算法到非分代算法\n"
                         },
                         "children": [
                             {
