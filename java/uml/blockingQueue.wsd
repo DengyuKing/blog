@@ -1,0 +1,17 @@
+@startuml
+
+' 阻塞队列类图 活动图，用例图
+
+class ArrayBlockingQueue{
+    + takeIndex
+    + putIndex
+    + count
+    + lock
+    + notEmpty
+    + notFull
+    + Itrs[]
+
+}
+
+
+@enduml
