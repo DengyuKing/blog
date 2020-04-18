@@ -649,6 +649,15 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "c1s49xfikqw0",
+                    "created": 1585972345823,
+                    "text": "spring",
+                    "note": "# spring\n\n1 spring 中beafactory和factoryBean的区别\n\n2 spring上下文的含义以及 ClassPathXmlContext 和 注解上下文之间的关系和区别，他们是不是公用一个beanDefination ,是不是共用工厂，是不是公用其他东西 我觉得不是的\n\n"
+                },
+                "children": []
             }
         ]
     },
