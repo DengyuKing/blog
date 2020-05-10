@@ -127,6 +127,6 @@
         ]
     },
     "template": "default",
-    "theme": "classic",
+    "theme": "snow-compact",
     "version": "1.4.43"
 }
