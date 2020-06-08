@@ -46,3 +46,37 @@
 - 动态代理:代理类在运行期间才动态生成，这种方式需要先把要代理的东西编辑好，然后在运行时需要的时候动态生成代理类，静态代理和动态代理在形式上没有区别，在调用的时候都需要修改调用的逻辑(配合SpringAOP标签可以不更改原有代码)，实在搞不懂这两个有什么本质上的区别（没有绝对的好，和绝对的不好）！
 ### AOP
     - AspectJ
+
+### 垃圾回收器
+ 
+垃圾回收器的发展主线-随着jvm要管理内存原来越大， 垃圾回收器也发展为从回收小内存到回收大内存，从单线程到多线程，从物理分区到逻辑分区再到不分区的发展趋势。
+
+``` graphviz
+graph scavenge{
+ node[shape ="box" fontname="weiruanyahei"]
+ edge[fontname ="weiruanyahei"]
+
+ subgraph  clusteryoung {
+     randdir="LR"
+     label = "young"
+     ParaLLelScavenge
+     ParNew
+     Serial
+     
+ }
+ subgraph  clusterold {
+     randdir="LR"
+     label = "Old"
+     ParallelOld
+     SerialOld
+     CMS
+     {ParallelOld,SerialOld,CMS rank="same"}
+ }
+ G1
+ Serial--{SerialOld,CMS}
+ ParNew--{CMS,SerialOld}
+ ParaLLelScavenge--{ParallelOld,SerialOld}
+ CMS--SerialOld
+}
+```
+图1-1 虚拟机垃圾回收器发展图
