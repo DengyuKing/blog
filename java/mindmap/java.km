@@ -31,24 +31,7 @@
                             "created": 1583198752754,
                             "text": "IO"
                         },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "c1qlz0sppfs0",
-                                    "created": 1585819151210,
-                                    "text": "in"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
-                                    "id": "c1qlz24td6o0",
-                                    "created": 1585819154119,
-                                    "text": "out"
-                                },
-                                "children": []
-                            }
-                        ]
+                        "children": []
                     },
                     {
                         "data": {
@@ -86,9 +69,190 @@
                                         "data": {
                                             "id": "c1g4hteclg80",
                                             "created": 1584754244478,
-                                            "text": "topic"
+                                            "text": "面试"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c2459yclh2g0",
+                                                    "created": 1587193888413,
+                                                    "text": "线程池参数"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c245b3a6hd40",
+                                                            "created": 1587193977515,
+                                                            "text": "核心线程数"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245b69vqeo0",
+                                                            "created": 1587193984027,
+                                                            "text": "最大线程数"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245b8b09qo0",
+                                                            "created": 1587193988449,
+                                                            "text": "非核心线程存活时间"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245bds7g400",
+                                                            "created": 1587194000373,
+                                                            "text": "线程存活时间单位"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245bj9avrs0",
+                                                            "created": 1587194012290,
+                                                            "text": "线程拒绝策略"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245e3n3lqg0",
+                                                                    "created": 1587194213388,
+                                                                    "text": "抛异常"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245e5hv31k0",
+                                                                    "created": 1587194217425,
+                                                                    "text": "直接丢弃"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245edkzolc0",
+                                                                    "created": 1587194235029,
+                                                                    "text": "丢弃队列中最老的任务"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245ge97fdk0",
+                                                                    "created": 1587194393221,
+                                                                    "text": "交给调用线程池的线程处理"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c245a4uz0i00",
+                                                    "created": 1587193902585,
+                                                    "text": "线程异常处理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c245hj9jj400",
+                                                            "created": 1587194482490,
+                                                            "text": "try-catch"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245hlthxeo0",
+                                                            "created": 1587194488050,
+                                                            "text": "futrue.get"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245ihju24g0",
+                                                            "created": 1587194557123,
+                                                            "text": "通过线程工厂设置uncauntExceptionHandler"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245ivfayag0",
+                                                            "created": 1587194587324,
+                                                            "text": "通过继承线程池重写afterExcuter"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c245a7viak00",
+                                                    "created": 1587193909147,
+                                                    "text": "线程工作队列"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c245gt51ctc0",
+                                                            "created": 1587194425621,
+                                                            "text": "ArrayBlockingQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jh394xc0",
+                                                            "created": 1587194634484,
+                                                            "text": "LinkedBlockingQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jjxqvmg0",
+                                                            "created": 1587194640682,
+                                                            "text": "DelayQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jub8x3c0",
+                                                            "created": 1587194663266,
+                                                            "text": "PriorityBlockingQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jyw6obk0",
+                                                            "created": 1587194673239,
+                                                            "text": "SynchronousQueue"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c245ag42nf40",
+                                                    "created": 1587193927080,
+                                                    "text": "常用线程池"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -146,8 +310,7 @@
                                                         "data": {
                                                             "id": "c115f303msg0",
                                                             "created": 1583233452052,
-                                                            "text": "AQS",
-                                                            "note": "# AQS\n\n一个用于同步的工具，支持条件等待，公平和非公平竞争锁，超时与中断等多种应用场景\n\nAQS通过维护一个原子变量的状态达到同步线程的效果，具体场景是当有多个线程同时竞争一个资源时，只能有一个线程获取到资源，其他线程在一个队列中排队。\n公平锁和非公平锁的实现原理就是取决于未获取到锁的线程的排队方式。\n\n为了支持超时取消，线程在等待过程中被取消或者中断这样的状态，队列中的阶段引入cancelled,signal,condition,PROPAGATE\n\n其中 cancelled是指当线程已经被取消，可以被踢出队列了\n\nsignal是指需要唤醒后继者线程\n\ncondition表示线程正在某个条件下等待\n\nPROPAGATE 表示后面的共享机制的线程可以传播\n\n## 方法\n\ndoAcquireInterruptibly() 中断式获取资源\n\n共享获取释放资源\ntryAcquireShared\ntryReleaseShared\n\n互斥获取释放资源\ntryRelease\ntryAcquire\n"
+                                                            "text": "AQS"
                                                         },
                                                         "children": []
                                                     }
@@ -385,15 +548,6 @@
             },
             {
                 "data": {
-                    "id": "c1r651pllgw0",
-                    "created": 1585876045583,
-                    "text": "classPath",
-                    "note": "# classPath\nJava的类路径，所有的编译类都需要防到Java的类路径中，这样才能被Java执行。\n\nJava在执行类的时候，回去加载classpath中的类"
-                },
-                "children": []
-            },
-            {
-                "data": {
                     "id": "c10t1pn36pc0",
                     "created": 1583198550914,
                     "text": "jvm"
@@ -455,7 +609,7 @@
                             "id": "c10t2ohp2e00",
                             "created": 1583198626775,
                             "text": "类加载",
-                            "note": "Java类加载器机制的基本框架\n\n编写日常插件需要注意的问题\n\n类加载中的问题\n\n为什么要有双亲委派模型呢？\n答：Java语言为了确保一些最基础的类被加载后，才能加载在这些类基础之上的其他的类。为此定义了一种规则，这种规则要求如果要加载一个类，需要判断系统是否已经加载过这个类，如果系统已经加载过这个类了，那么就不需要再去加载，以免引起混淆！\n\n类加载的三个阶段\n\n加载 \n\n连接\n\t验证 \n\n\t准备 进行对象初始化，静态变量和成员变量附初始值 \n\n\t解析\n初始化\n\n使用\n\n卸载"
+                            "note": "Java类加载器机制的基本框架\n\n编写日常插件需要注意的问题\n\n类加载中的问题\n\n为什么要有双亲委派模型呢？\n答：Java语言为了确保一些最基础的类被加载后，才能加载在这些类基础之上的其他的类。为此定义了一种规则，这种规则要求如果要加载一个类，需要判断系统是否已经加载过这个类，如果系统已经加载过这个类了，那么就不需要再去加载，以免引起混淆！"
                         },
                         "children": []
                     },
@@ -478,8 +632,7 @@
                                 "data": {
                                     "id": "c10tdymeuxc0",
                                     "created": 1583199510834,
-                                    "text": "volitile关键字",
-                                    "note": "# volitile\nvolitile的两个语义\n\n1 修改内容后线程立即可见\n2 禁止指令重排序\n\n单例模式 demo\n\nObject ob;\n\nif (ob == null){\nsyncnazid(Demo.class){\nif (ob == null)\nob = new Demo()//在此句时，不加volitile 关键字 有可能出现半初始化状态，先load 然后 再初始化，需要加上关键字\n\n}\n\n}\n\nreturn ob;\n\n\n"
+                                    "text": "volitile关键字"
                                 },
                                 "children": []
                             },
@@ -678,6 +831,15 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "c1s49xfikqw0",
+                    "created": 1585972345823,
+                    "text": "spring",
+                    "note": "# spring\n\n1 spring 中beafactory和factoryBean的区别\n\n2 spring上下文的含义以及 ClassPathXmlContext 和 注解上下文之间的关系和区别，他们是不是公用一个beanDefination ,是不是共用工厂，是不是公用其他东西 我觉得不是的\n\n"
+                },
+                "children": []
             }
         ]
     },
