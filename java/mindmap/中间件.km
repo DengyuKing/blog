@@ -13,7 +13,132 @@
                     "created": 1583454207797,
                     "text": "Netty"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c32c2eh4s6g0",
+                            "created": 1590666082898,
+                            "text": " 存储"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c32cabyehu00",
+                            "created": 1590666704326,
+                            "text": "channel"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c32cc32rkyw0",
+                                    "created": 1590666841727,
+                                    "text": "生命周期",
+                                    "layout_right_offset": {
+                                        "x": 131,
+                                        "y": -53
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c32cc4xp87c0",
+                                            "created": 1590666845774,
+                                            "text": "创建未注册"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cc85osqw0",
+                                            "created": 1590666852787,
+                                            "text": "创建已注册"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cccr5x400",
+                                            "created": 1590666862793,
+                                            "text": "处于活动状态"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cco90rwo0",
+                                            "created": 1590666887817,
+                                            "text": "未连接"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c32cagkpvw00",
+                            "created": 1590666714382,
+                            "text": "eventloopgroup"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c32cbiffhqg0",
+                            "created": 1590666796780,
+                            "text": "同步和异步"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c32ce8zywuw0",
+                            "created": 1590667011347,
+                            "text": "channelHadler",
+                            "layout_right_offset": {
+                                "x": 40,
+                                "y": -152
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c32cej3k2g80",
+                                    "created": 1590667033331,
+                                    "text": "生命周期"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c32cetvn2vk0",
+                                            "created": 1590667056797,
+                                            "text": "被添加到pipline"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cezeef400",
+                                            "created": 1590667068816,
+                                            "text": "被移除pipeline"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cf6htpk00",
+                                            "created": 1590667084260,
+                                            "text": "在pipeline中抛异常"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {

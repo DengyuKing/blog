@@ -1,3 +1,7 @@
+ /**
+ 纯文本笔记没有word文档好用，也没有有道等笔记好用，也没有oneNote好用，所选的工具都是为效率服务的。
+ **/
+ 
  # Java类加载器ClassLoader
 
 - 用来加载 Class 的。它负责将 Class 的字节码形式转换成内存形式的 Class 对象。字节码可以来自于磁盘文件 *.class，也可以是 jar 包里的 *.class，也可以来自远程服务器提供的字节流，字节码的本质就是一个字节数组 []byte，它有特定的复杂的内部格式。
@@ -47,6 +51,39 @@
 ### AOP
     - AspectJ
 
+### 垃圾回收器
+ 
+垃圾回收器的发展主线-随着jvm要管理内存原来越大， 垃圾回收器也发展为从回收小内存到回收大内存，从单线程到多线程，从物理分区到逻辑分区再到不分区的发展趋势。
+
+``` graphviz
+graph scavenge{
+ node[shape ="box" fontname="weiruanyahei"]
+ edge[fontname ="weiruanyahei"]
+
+ subgraph  clusteryoung {
+     randdir="LR"
+     label = "young"
+     ParaLLelScavenge
+     ParNew
+     Serial
+     
+ }
+ subgraph  clusterold {
+     randdir="LR"
+     label = "Old"
+     ParallelOld
+     SerialOld
+     CMS
+     {ParallelOld,SerialOld,CMS rank="same"}
+ }
+ G1
+ Serial--{SerialOld,CMS}
+ ParNew--{CMS,SerialOld}
+ ParaLLelScavenge--{ParallelOld,SerialOld}
+ CMS--SerialOld
+}
+```
+图1-1 虚拟机垃圾回收器发展图
 
 ## java 线程池
 
@@ -55,14 +92,5 @@
 线程池。
 
 ### 线程池的
-
-
-
-各线程池对比
-| 线程池             | 核心线程数 | 最大线程数 | 饱和策略 | keepAliveTime | WorkQueue           | 描述             | 长处                |
-| :----------------- | :--------- | :--------- | :------- | :------------ | :------------------ | :--------------- |
-| newFixedThreadPool | N          | N          | 可定制   | 0             | LinkedBlockingQueue | 固定数据的线程池 | 长期任务，CPU密集型 |
-
-
 
 
