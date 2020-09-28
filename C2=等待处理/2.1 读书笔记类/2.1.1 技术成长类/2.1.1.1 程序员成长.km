@@ -14,39 +14,248 @@
                     "layout_mind_offset": {
                         "x": -39,
                         "y": -146
-                    }
+                    },
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "c5ym2quwwgo0",
                             "created": 1601256556446,
-                            "text": "技术"
+                            "text": "技术",
+                            "priority": 1
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "c5ym46hqlfc0",
                                     "created": 1601256668842,
-                                    "text": "技能成长"
+                                    "text": "1.1 技能成长"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5z1yi8mj480",
+                                            "created": 1601301361986,
+                                            "text": "新的编程语言"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1ympwzfk0",
+                                            "created": 1601301371738,
+                                            "text": "静态代码分析工具"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1ys45k6o0",
+                                            "created": 1601301383483,
+                                            "text": "代码审查"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1yu0c9zs0",
+                                            "created": 1601301387606,
+                                            "text": "任务执行清单和模板"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1z2vcn6g0",
+                                            "created": 1601301406895,
+                                            "text": "工作法则"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1z5l8z8w0",
+                                            "created": 1601301412815,
+                                            "text": "工具箱"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
                                     "id": "c5ym48kte8g0",
                                     "created": 1601256673381,
-                                    "text": "快速学习"
+                                    "text": "1.2 学习 "
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5z1zq4xups0",
+                                            "created": 1601301457541,
+                                            "text": "自身心态"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z20f0acgo0",
+                                                    "created": 1601301511679,
+                                                    "text": "不怕犯错误，敢于犯错误"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z20o08zj40",
+                                                    "created": 1601301531268,
+                                                    "text": "注重细节，复盘能力"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z20vqmx400",
+                                                    "created": 1601301548101,
+                                                    "text": "时间管理"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z20ytr2zk0",
+                                                    "created": 1601301554820,
+                                                    "text": "打破边界"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z25zayahs0",
+                                                    "created": 1601301947681,
+                                                    "text": "注重代码规范"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1zr642ts0",
+                                            "created": 1601301459789,
+                                            "text": "方法论"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z26lsxry80",
+                                                    "created": 1601301996657,
+                                                    "text": "方法与途径"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z26yhd07c0",
+                                                    "created": 1601302024256,
+                                                    "text": "两个理论"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
                                     "id": "c5ym4ap2yfc0",
                                     "created": 1601256677993,
-                                    "text": "业务分析设计"
+                                    "text": "1.3 业务分析设计"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5z2bd0cyso0",
+                                            "created": 1601302369336,
+                                            "text": "黄金圈法则"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z2bg1vw8w0",
+                                            "created": 1601302375959,
+                                            "text": "系统分析工具"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z2bipvesg0",
+                                            "created": 1601302381763,
+                                            "text": "业务分析和设计的方法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z2dclykkw0",
+                                                    "created": 1601302525194,
+                                                    "text": "面向对象设计"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2dfgitmw0",
+                                                    "created": 1601302531395,
+                                                    "text": "面向组件设计"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2dibkyps0",
+                                                    "created": 1601302537627,
+                                                    "text": "面向服务设计"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z2dyag7s00",
+                                            "created": 1601302572387,
+                                            "text": "业务分析和设计的三个阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z2e9pbkzk0",
+                                                    "created": 1601302597231,
+                                                    "text": "面向数据"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2ee4v5bs0",
+                                                    "created": 1601302606878,
+                                                    "text": "面向对象和服务"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2fct6plk0",
+                                                    "created": 1601302682359,
+                                                    "text": "面向问题域"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -54,7 +263,8 @@
                         "data": {
                             "id": "c5ym354wfuo0",
                             "created": 1601256587524,
-                            "text": "架构"
+                            "text": "架构",
+                            "priority": 2
                         },
                         "children": [
                             {
@@ -87,7 +297,8 @@
                         "data": {
                             "id": "c5ym367apyo0",
                             "created": 1601256589846,
-                            "text": "管理"
+                            "text": "管理",
+                            "priority": 3
                         },
                         "children": [
                             {
@@ -124,8 +335,8 @@
                     "created": 1601256475488,
                     "text": "Netty,Redis,ZK高并发实战",
                     "layout_mind_offset": {
-                        "x": 675,
-                        "y": 243
+                        "x": -100.00000759959221,
+                        "y": 257.9999958950739
                     }
                 },
                 "children": [
