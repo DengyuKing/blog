@@ -1,0 +1,163 @@
+{
+    "root": {
+        "data": {
+            "id": "c5ylzz9em6o0",
+            "created": 1601256339644,
+            "text": "技术成长笔记"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c5ym0tgzg280",
+                    "created": 1601256405405,
+                    "text": "程序员的三门课",
+                    "layout_mind_offset": {
+                        "x": -39,
+                        "y": -146
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5ym2quwwgo0",
+                            "created": 1601256556446,
+                            "text": "技术"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5ym46hqlfc0",
+                                    "created": 1601256668842,
+                                    "text": "技能成长"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym48kte8g0",
+                                    "created": 1601256673381,
+                                    "text": "快速学习"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym4ap2yfc0",
+                                    "created": 1601256677993,
+                                    "text": "业务分析设计"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5ym354wfuo0",
+                            "created": 1601256587524,
+                            "text": "架构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5ym5b55bds0",
+                                    "created": 1601256757328,
+                                    "text": "架构思维"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym5cgs0200",
+                                    "created": 1601256760208,
+                                    "text": "架构设计"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym5dzlyzs0",
+                                    "created": 1601256763524,
+                                    "text": "架构保障-质量和风险"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5ym367apyo0",
+                            "created": 1601256589846,
+                            "text": "管理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5ym65yws140",
+                                    "created": 1601256824432,
+                                    "text": "自我价值目标"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym6a6hvy80",
+                                    "created": 1601256833597,
+                                    "text": "领导力"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym6itb7yo0",
+                                    "created": 1601256852391,
+                                    "text": "时间管理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c5ym1po13mw0",
+                    "created": 1601256475488,
+                    "text": "Netty,Redis,ZK高并发实战",
+                    "layout_mind_offset": {
+                        "x": 675,
+                        "y": 243
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5ym1re2lh40",
+                            "created": 1601256479240,
+                            "text": "基础知识",
+                            "layout_right_offset": {
+                                "x": 36,
+                                "y": -13
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c5ym8h39q3s0",
+                            "created": 1601257005368,
+                            "text": "Netty",
+                            "layout_right_offset": {
+                                "x": 65,
+                                "y": 2
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}
