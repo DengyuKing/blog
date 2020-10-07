@@ -1,0 +1,159 @@
+{
+    "root": {
+        "data": {
+            "id": "c65tzsxdspc0",
+            "created": 1601989814432,
+            "text": "基本框图"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c65u0vl7mj40",
+                    "created": 1601989898590,
+                    "text": "木",
+                    "layout_mind_offset": {
+                        "x": 58,
+                        "y": 37
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucqbok4g0",
+                            "created": 1601990827500,
+                            "text": " "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucqtypo80",
+                            "created": 1601990828606,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65u14s182w0",
+                    "created": 1601989918594,
+                    "text": "火",
+                    "layout_mind_offset": {
+                        "x": -111,
+                        "y": -179
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucowbvv40",
+                            "created": 1601990824395,
+                            "text": "topic"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucpju9t40",
+                            "created": 1601990825817,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65u19x3yeg0",
+                    "created": 1601989929785,
+                    "text": "金",
+                    "layout_mind_offset": {
+                        "x": -487,
+                        "y": -119
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucuu94nk0",
+                            "created": 1601990837330,
+                            "text": "topic"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucvmm15s0",
+                            "created": 1601990839045,
+                            "text": " "
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65u1b2xpyw0",
+                    "created": 1601989932314,
+                    "text": "水",
+                    "layout_mind_offset": {
+                        "x": 160,
+                        "y": 224
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucg5jswo0",
+                            "created": 1601990805362,
+                            "text": " "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucu0yv2w0",
+                            "created": 1601990835560,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65uc547uko0",
+                    "created": 1601990781337,
+                    "text": "土",
+                    "layout_mind_offset": {
+                        "x": 348,
+                        "y": 41
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucrl7w940",
+                            "created": 1601990830254,
+                            "text": "topic"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65uct6xmy00",
+                            "created": 1601990833744,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "snow",
+    "version": "1.4.43"
+}
