@@ -25,8 +25,8 @@
                             "text": "技术",
                             "priority": 1,
                             "layout_right_offset": {
-                                "x": -26,
-                                "y": -82
+                                "x": 43,
+                                "y": -74
                             },
                             "expandState": "collapse"
                         },
