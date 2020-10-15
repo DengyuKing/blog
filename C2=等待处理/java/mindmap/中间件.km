@@ -19,7 +19,11 @@
                         "data": {
                             "id": "c32c2eh4s6g0",
                             "created": 1590666082898,
-                            "text": " 存储"
+                            "text": " 存储",
+                            "layout_right_offset": {
+                                "x": -4,
+                                "y": -38
+                            }
                         },
                         "children": []
                     },
@@ -27,7 +31,11 @@
                         "data": {
                             "id": "c32cabyehu00",
                             "created": 1590666704326,
-                            "text": "channel"
+                            "text": "channel",
+                            "layout_right_offset": {
+                                "x": 7,
+                                "y": -36
+                            }
                         },
                         "children": [
                             {
@@ -107,8 +115,8 @@
                                     "created": 1590667033331,
                                     "text": "生命周期",
                                     "layout_right_offset": {
-                                        "x": 13,
-                                        "y": 39
+                                        "x": 40,
+                                        "y": 19
                                     }
                                 },
                                 "children": [
@@ -182,7 +190,11 @@
                 "data": {
                     "id": "c13boq8fp2o0",
                     "created": 1583454254472,
-                    "text": "MQ "
+                    "text": "MQ ",
+                    "layout_mind_offset": {
+                        "x": 10,
+                        "y": 61
+                    }
                 },
                 "children": [
                     {
@@ -314,8 +326,8 @@
                     "created": 1583454334525,
                     "text": "ZK",
                     "layout_mind_offset": {
-                        "x": -135,
-                        "y": -176
+                        "x": -357,
+                        "y": -207
                     }
                 },
                 "children": []
@@ -326,8 +338,8 @@
                     "created": 1584020000153,
                     "text": "数据库",
                     "layout_mind_offset": {
-                        "x": -35,
-                        "y": -52
+                        "x": -146,
+                        "y": -135
                     }
                 },
                 "children": [
@@ -835,11 +847,114 @@
                     "created": 1602752586845,
                     "text": "延迟队列",
                     "layout_mind_offset": {
-                        "x": 136,
-                        "y": 231
+                        "x": 476,
+                        "y": 249
                     }
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6dgwq8bmts0",
+                            "created": 1602765378695,
+                            "text": "场景",
+                            "layout_right_offset": {
+                                "x": 70,
+                                "y": 0
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6dgwu2yfx40",
+                                    "created": 1602765387078,
+                                    "text": "关闭空闲连接",
+                                    "layout_right_offset": {
+                                        "x": 5,
+                                        "y": 0
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgx6hwvvs0",
+                                    "created": 1602765414104,
+                                    "text": "清理过期业务数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgxcq0gk80",
+                                    "created": 1602765427654,
+                                    "text": "任务超时处理"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgxht4yuo0",
+                                    "created": 1602765438727,
+                                    "text": "下单后一定时间未支付取消"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgxnwhszk0",
+                                    "created": 1602765451991,
+                                    "text": "下单后一定时间触发事件"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgyb8nxi00",
+                                    "created": 1602765502792,
+                                    "text": "定时任务"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6dgzdpdfv40",
+                            "created": 1602765586520,
+                            "text": "实现方式",
+                            "layout_right_offset": {
+                                "x": 65,
+                                "y": 105
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6dgzk4kwyg0",
+                                    "created": 1602765600501,
+                                    "text": "定期轮询 数据等"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgzves4yo0",
+                                    "created": 1602765625063,
+                                    "text": "时间轮，kafka实现方式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dhb3dl77k0",
+                                    "created": 1602766504410,
+                                    "text": "quartz "
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
