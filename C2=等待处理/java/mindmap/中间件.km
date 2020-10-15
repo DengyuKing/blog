@@ -559,6 +559,287 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "c6c7cgaq7a00",
+                    "created": 1602636839844,
+                    "text": "分布式理论",
+                    "layout_mind_offset": {
+                        "x": -198,
+                        "y": 318
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6c7cne3uow0",
+                            "created": 1602636855285,
+                            "text": "分布式一致性",
+                            "note": "# 分布式一致性\n\n## 一致性问题\n\n在冯诺依曼计算机体系结构下，CPU对数据进行操作，需要先从内存把数据读取，在进行运算完成之后，需要把数据再次写入到内存，由于内存是可以被多个CPU共享的，多个CPU对内存进行读写可能导致数据的错乱，因此，在单机多CPU的条件下，对共享数据进行加锁成为维护数据一致性的重要手段。但是加锁会导致锁竞争，从而降低系统的性能。\n\n在分布式环境中，通常处理事务的最小单位由原来的单机变成了由很多机器组成的集群，这样，机器与机器之间的通信成本比原来单机时代高了很多，同时也增加了很多不确定性。此时，单机时代的很多问题会被放大。\n\n在单机时代，所有的事务的处理都在一个单机上，事务对数据的依赖只有内存，如果内存的性能足够好，且不发生物理损坏的情况下，我们能够很轻松的保持数据的一致性\n\n强一致性\n写入立即可读，典型的场景是火车票\n\n弱一致性\n写入不保证立即可读\n\n最终一致性\n写入不保证立即可读，但是会承诺在未来的一段时间内是可读的。典型场景是银行转账。",
+                            "layout_left_offset": {
+                                "x": -3,
+                                "y": -62
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c82rh716o0",
+                                    "created": 1602638901648,
+                                    "text": "强一致性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c82vprm080",
+                                    "created": 1602638910873,
+                                    "text": "弱一致性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c82y6v48o0",
+                                    "created": 1602638916260,
+                                    "text": "最终一致性"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6c7d5fzxuw0",
+                            "created": 1602636894582,
+                            "text": "分布式环境的问题"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c8b4yyck00",
+                                    "created": 1602639557933,
+                                    "text": "通信异常"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6c8cu5vr200",
+                                            "created": 1602639691135,
+                                            "text": "网络延迟"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8cvxy64g0",
+                                            "created": 1602639695009,
+                                            "text": "数据错乱"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8b6tm2hs0",
+                                    "created": 1602639561963,
+                                    "text": "网络分区"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8bb8s23c0",
+                                    "created": 1602639571588,
+                                    "text": "请求三态"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6c8buyjggw0",
+                                            "created": 1602639614504,
+                                            "text": "请求成功"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8bxecow80",
+                                            "created": 1602639619814,
+                                            "text": "请求失败"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8bzvmsso0",
+                                            "created": 1602639625212,
+                                            "text": "请求超时"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8bkm3pog0",
+                                    "created": 1602639591984,
+                                    "text": "节点故障"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6c7ddvarpk0",
+                            "created": 1602636912921,
+                            "text": "分布式事务"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c8ehomli00",
+                                    "created": 1602639820699,
+                                    "text": "保证ACID"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6c7dhtvzew0",
+                            "created": 1602636921543,
+                            "text": "CAP&Base理论"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c8eu8hbd40",
+                                    "created": 1602639848021,
+                                    "text": "CAP",
+                                    "layout_left_offset": {
+                                        "x": -7,
+                                        "y": 7
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6c8f1tphwg0",
+                                            "created": 1602639864542,
+                                            "text": "C 一致性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8f3dljjs0",
+                                            "created": 1602639867921,
+                                            "text": "A 可用性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8f5843xk0",
+                                            "created": 1602639871943,
+                                            "text": "P 分区容错性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8huvdd9c0",
+                                            "created": 1602640084498,
+                                            "text": "系统设计时考虑的取舍"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6c8ie22nl40",
+                                                    "created": 1602640126262,
+                                                    "text": "CA"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6c8inaljvc0",
+                                                            "created": 1602640146368,
+                                                            "text": "单机数据库选择"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6c8ifne6sg0",
+                                                    "created": 1602640129728,
+                                                    "text": "AP"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6c8is71r140",
+                                                            "created": 1602640157037,
+                                                            "text": "大多数分布式系统的选择，舍弃强一致性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6c8ih6a7g00",
+                                                    "created": 1602640133047,
+                                                    "text": "CP"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6c8j9ezsy00",
+                                                            "created": 1602640194523,
+                                                            "text": "基本上不去考虑，因为没有保证可用性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8evvrl340",
+                                    "created": 1602639851606,
+                                    "text": "BASE",
+                                    "layout_left_offset": {
+                                        "x": -7,
+                                        "y": 33
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6dcdhqikg80",
+                    "created": 1602752586845,
+                    "text": "延迟队列",
+                    "layout_mind_offset": {
+                        "x": 136,
+                        "y": 231
+                    }
+                },
+                "children": []
             }
         ]
     },

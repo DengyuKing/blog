@@ -519,7 +519,8 @@
                             "layout_right_offset": {
                                 "x": 41,
                                 "y": 13
-                            }
+                            },
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1517,7 +1518,8 @@
                             "layout_right_offset": {
                                 "x": 106,
                                 "y": 240
-                            }
+                            },
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
