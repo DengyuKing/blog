@@ -13,8 +13,8 @@
                     "created": 1601256405405,
                     "text": "程序员的三门课",
                     "layout_mind_offset": {
-                        "x": -39,
-                        "y": -146
+                        "x": 59,
+                        "y": -167
                     },
                     "expandState": "expand"
                 },
@@ -24,7 +24,12 @@
                             "id": "c5ym2quwwgo0",
                             "created": 1601256556446,
                             "text": "技术",
-                            "priority": 1
+                            "priority": 1,
+                            "layout_right_offset": {
+                                "x": 43,
+                                "y": -74
+                            },
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -70,17 +75,36 @@
                                         "data": {
                                             "id": "c5z1z2vcn6g0",
                                             "created": 1601301406895,
-                                            "text": "工作法则"
+                                            "text": "工作法则",
+                                            "note": "# 工作法则的理解和说明\n\n 这里的工作法则是开发日常中怎么去做，如何把事情做的又快又好的方法。\n\n对于程序员来说，如何写出高质量的代码，有一种保障其工作的机制是很必要的。\n\n这里的工作法则就是一切可以提升效率的方法和工具。",
+                                            "expandState": "expand"
                                         },
-                                        "children": []
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "c5z1z5l8z8w0",
-                                            "created": 1601301412815,
-                                            "text": "工具箱"
-                                        },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5zgu7a95m00",
+                                                    "created": 1601343341331,
+                                                    "text": "工具化 和自动化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5zguecugeo0",
+                                                    "created": 1601343356726,
+                                                    "text": "流程化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z1z5l8z8w0",
+                                                    "created": 1601301412815,
+                                                    "text": "工具箱"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -120,7 +144,40 @@
                                                     "created": 1601301548101,
                                                     "text": "时间管理"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgyw4k6680",
+                                                            "created": 1601343708863,
+                                                            "text": "意义不大的会议"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgyzmxvmw0",
+                                                            "created": 1601343716505,
+                                                            "text": "想清楚再编码"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgz3yvyjc0",
+                                                            "created": 1601343725935,
+                                                            "text": "计划清单"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgz44he7c0",
+                                                            "created": 1601343726273,
+                                                            "text": "设置事情的优先级"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
@@ -153,15 +210,195 @@
                                                     "created": 1601301996657,
                                                     "text": "方法与途径"
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zhfou05jk0",
+                                                            "created": 1601345025178,
+                                                            "text": "目标管理"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhg0wx5dk0",
+                                                                    "created": 1601345051476,
+                                                                    "text": "评估能力"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhg32fuvk0",
+                                                                    "created": 1601345056163,
+                                                                    "text": "制定目标"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhg5524dc0",
+                                                                    "created": 1601345060675,
+                                                                    "text": "评估目标"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zhfr78iuw0",
+                                                            "created": 1601345030332,
+                                                            "text": "提升途径",
+                                                            "layout_right_offset": {
+                                                                "x": 30,
+                                                                "y": 224
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhitz3okw0",
+                                                                    "created": 1601345271463,
+                                                                    "text": "有目的性阅读"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhj0vepr40",
+                                                                    "created": 1601345286477,
+                                                                    "text": "在线课程"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhjgdk7fs0",
+                                                                    "created": 1601345320226,
+                                                                    "text": "开源项目",
+                                                                    "priority": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhjks4tjc0",
+                                                                    "created": 1601345329815,
+                                                                    "text": "编程竞赛"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhl1wb11k0",
+                                                                    "created": 1601345445437,
+                                                                    "text": "博客"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zhhqc6row0",
+                                                            "created": 1601345185183,
+                                                            "text": "学习时间和专注",
+                                                            "layout_right_offset": {
+                                                                "x": 50,
+                                                                "y": -157
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhhunlils0",
+                                                                    "created": 1601345194580,
+                                                                    "text": "利用碎片化时间"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhi55ltlk0",
+                                                                    "created": 1601345217437,
+                                                                    "text": "同一时间专注一件事情"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "data": {
                                                     "id": "c5z26yhd07c0",
                                                     "created": 1601302024256,
-                                                    "text": "两个理论"
+                                                    "text": "两个理论",
+                                                    "layout_right_offset": {
+                                                        "x": 9,
+                                                        "y": 100
+                                                    }
                                                 },
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zh21mz0680",
+                                                            "created": 1601343955953,
+                                                            "text": "德雷福斯模型",
+                                                            "note": "# 德雷福斯模型\n\n德雷福斯模型把一个行业的人按照经验的不同，分为新手，高级新手，胜任者，精通者，专家五个级别，每个级别又分别有不同的技能要求。\n\n## 新手\n需要指令清单，需要别人告诉你怎么去做，自己对整体没有一个全新的认识。\n\n## 高级新手\n仍然缺乏全局思维，能够或多或少的摆脱现有固定思维和独自尝试任务，但是呢，难以解决问题。\n\n## 胜任者\n\n能够解决问题，有主动性和足智多谋，具有初步的全局思维，初步的全局理解。能够指导新手。\n\n## 精通者\n\n能够自我纠正，需要全局思维，具有有点及面的求知渴望，能够了解行业的规则。\n\n## 专家\n\n经验丰富，总是不断需找最好的方法和方式做事情，以输出文章和自己见解为代表。\n\n\n## 新手和专家的区别\n\n- 新手使用规则，专家使用直觉\n- 新手通过模仿和观察学习，专家需要保持实践维持专家水平。"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh2ss1ch40",
+                                                                    "created": 1601344015032,
+                                                                    "text": "新手"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh2uctta00",
+                                                                    "created": 1601344018466,
+                                                                    "text": "高级新手"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh2vyhh680",
+                                                                    "created": 1601344021953,
+                                                                    "text": "胜任者"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh358y4dk0",
+                                                                    "created": 1601344042176,
+                                                                    "text": "精通者"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh3bx5vds0",
+                                                                    "created": 1601344056701,
+                                                                    "text": "专家"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zh27f02ns0",
+                                                            "created": 1601343968532,
+                                                            "text": "刻意锻炼理论"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
@@ -171,7 +408,11 @@
                                 "data": {
                                     "id": "c5ym4ap2yfc0",
                                     "created": 1601256677993,
-                                    "text": "1.3 业务分析设计"
+                                    "text": "1.3 业务分析设计",
+                                    "layout_right_offset": {
+                                        "x": 10,
+                                        "y": 87
+                                    }
                                 },
                                 "children": [
                                     {
@@ -188,7 +429,16 @@
                                             "created": 1601302375959,
                                             "text": "系统分析工具"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5zggy6w0u00",
+                                                    "created": 1601342302803,
+                                                    "text": "uml图"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -265,7 +515,12 @@
                             "id": "c5ym354wfuo0",
                             "created": 1601256587524,
                             "text": "架构",
-                            "priority": 2
+                            "priority": 2,
+                            "layout_right_offset": {
+                                "x": 41,
+                                "y": 13
+                            },
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1259,7 +1514,12 @@
                             "id": "c5ym367apyo0",
                             "created": 1601256589846,
                             "text": "管理",
-                            "priority": 3
+                            "priority": 3,
+                            "layout_right_offset": {
+                                "x": 106,
+                                "y": 240
+                            },
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
