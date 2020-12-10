@@ -57,12 +57,14 @@
 # 1 
 # 0 
 # 
+# 如果序列是降序的，则直接返回升序的序列
+# 检查序列最后一个升序的子序列，然后对调最后两个元素返回
+# 可以从数组最后面开始检查对调
 # 
-#
-
 # @lc code=start
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
+        
         """
         Do not return anything, modify nums in-place instead.
         """
