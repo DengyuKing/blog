@@ -28,7 +28,7 @@
 
 ### 1 Java元注解 
 
- java元注解可以标记到注解的注解，包括 @Retention、@Documented、@Target、@Inherited、@Repeatable
+ java元注解可以标记到注解的注解，包括 @RPetention、@Documented、@Target、@Inherited、@Repeatable
 - @Target标识注解起作用的地方(作用)
         ElementType.ANNOTATION_TYPE 可以给一个注解进行注解
         ElementType.CONSTRUCTOR 可以给构造方法进行注解
