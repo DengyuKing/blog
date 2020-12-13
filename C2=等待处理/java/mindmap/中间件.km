@@ -12,7 +12,11 @@
                     "id": "c13bo4si9k00",
                     "created": 1583454207797,
                     "text": "Netty",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": 97,
+                        "y": 207
+                    }
                 },
                 "children": [
                     {
@@ -168,11 +172,256 @@
                     "created": 1583454233792,
                     "text": "ES",
                     "layout_mind_offset": {
-                        "x": -253,
-                        "y": -586
+                        "x": 56,
+                        "y": -898
                     }
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6i68zsl3m00",
+                            "created": 1603243107457,
+                            "text": "基础概念",
+                            "layout_right_offset": {
+                                "x": -75,
+                                "y": -173
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6i69761c9c0",
+                                    "created": 1603243123507,
+                                    "text": "存储"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i69ams9jk0",
+                                            "created": 1603243131050,
+                                            "text": "文档",
+                                            "note": "# 文档\nES中的文档类似于关系型数据库里的一行记录，不同的是，文档的结构不像MySQL中的模式定义的那么死板，所有的文档中，相同的字段必须具有相同的数据格式，并且允许一个文档中有多个相同的字段，一个文档中多个相同的字段也叫做多值字段。\n\n在索引中，文档的标识是由ES生成的唯一标识和文档类型确定的。话句话说，文档类型不一样的两个文档，可能拥有同一个文档标识。\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6ku3dqjc0",
+                                            "created": 1603244035418,
+                                            "text": "索引",
+                                            "note": "# 索引\nES的索引类似于mongoDb的一个文档，索引可能分布在不同的机器，一个索引可能有不同的分片"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i69c4luw80",
+                                            "created": 1603243134304,
+                                            "text": "词"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i69g3yn2o0",
+                                            "created": 1603243142972,
+                                            "text": "字段"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i69hkc2bk0",
+                                            "created": 1603243146139,
+                                            "text": "标记"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6z066xa00",
+                                            "created": 1603245145747,
+                                            "text": "映射",
+                                            "note": "# 映射\n\n映射的主要作用是存储字段的类型信息，在查询分析中，根据字段不同的类型，选择不同的策略查找。"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72fochm00",
+                                            "created": 1603245414589,
+                                            "text": "分片"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72ief8280",
+                                            "created": 1603245420519,
+                                            "text": "副本"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72jk7rg80",
+                                            "created": 1603245423046,
+                                            "text": "集群"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72nglt6g0",
+                                            "created": 1603245431535,
+                                            "text": "时光之门"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i69kndk0g0",
+                                    "created": 1603243152853,
+                                    "text": "倒排索引"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6abjbi1k0",
+                                            "created": 1603243211381,
+                                            "text": "存储"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6i6adjrc5c0",
+                                                    "created": 1603243215761,
+                                                    "text": "词向量"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6i6ahc5yi80",
+                                                    "created": 1603243224010,
+                                                    "text": "文档值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i6bm9vngg0",
+                                    "created": 1603243313119,
+                                    "text": "输入分析"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6d4mbt1s0",
+                                            "created": 1603243431418,
+                                            "text": "分词器"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6dado3js0",
+                                            "created": 1603243443955,
+                                            "text": "标记过滤器"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6deswgww0",
+                                            "created": 1603243453583,
+                                            "text": "字符映射器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i6ewx2fbc0",
+                                    "created": 1603243571382,
+                                    "text": "查询",
+                                    "note": "# 查询\n\n在查询时，可能对于需要查询的词进行分析，比如查询 lightRed这个词，如果不分析 则直接查询 lightRed整词，如果进行分析，则可能分别查询 light 和 red 两个词\n\n在查询时，查询的粒度需要和建立的索引保持一致，如果建立的索引是基于分词的，则查询是也需要基于分词。"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6ezbw2e80",
+                                            "created": 1603243576631,
+                                            "text": "分析查询"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6f0yrnyw0",
+                                            "created": 1603243580191,
+                                            "text": "不分析查询"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i6j7omrvk0",
+                                    "created": 1603243908273,
+                                    "text": "评分",
+                                    "layout_right_offset": {
+                                        "x": -9,
+                                        "y": 7
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6jh3ngh40",
+                                            "created": 1603243928772,
+                                            "text": "TF/IDF"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6i70i7hwxc0",
+                            "created": 1603245263372,
+                            "text": "性能"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6i70nemzy80",
+                                    "created": 1603245274688,
+                                    "text": "存储亿计的文档"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i70yqonog0",
+                                    "created": 1603245299361,
+                                    "text": "每秒百计的查询请求"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
@@ -514,7 +763,7 @@
                             "id": "c13bob6s3so0",
                             "created": 1583454221720,
                             "text": "缓存机制",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "layout_left_offset": {
                                 "x": -60,
                                 "y": 86
@@ -557,30 +806,6 @@
                     },
                     {
                         "data": {
-                            "id": "c5a5cuzorkg0",
-                            "created": 1598771951255,
-                            "text": "主从复制",
-                            "layout_left_offset": {
-                                "x": -60,
-                                "y": -65
-                            }
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "c5a5cy3ivds0",
-                            "created": 1598771958017,
-                            "text": "持久化",
-                            "layout_left_offset": {
-                                "x": -65,
-                                "y": -31
-                            }
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
                             "id": "c6gvjuirlgw0",
                             "created": 1603111365818,
                             "text": "模式",
@@ -619,6 +844,64 @@
                                             "id": "c6gvk47wunc0",
                                             "created": 1603111386930,
                                             "text": "CP"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5a5cy3ivds0",
+                            "created": 1598771958017,
+                            "text": "数据完整性",
+                            "layout_left_offset": {
+                                "x": -89,
+                                "y": 189
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5a5cuzorkg0",
+                                    "created": 1598771951255,
+                                    "text": "主从复制",
+                                    "layout_left_offset": {
+                                        "x": 7,
+                                        "y": -27
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6o539ln2g80",
+                                    "created": 1603849197249,
+                                    "text": "持久性",
+                                    "layout_left_offset": {
+                                        "x": -18,
+                                        "y": 20
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6npgob5pns0",
+                                            "created": 1603805110242,
+                                            "text": "RDB内存快照",
+                                            "note": "#RDB\n\n## 1 RDB是什么\nRDB是redis的一种持久化方式，把内存中的数据生成快照并存储到磁盘中。\n在数据库崩溃需要重新读入文件时，需要读取最近一次的存档记录。\n\n## 2 为什么使用RDB(主要的优势和场景)\n如果丢失一部分数据不会对应用程序造成很大的影响，可以采用这种方式进行备份。\n\n## 3 怎么使用RDB\nRDB的持久化主要依靠两个命令 Save 和Bgsave ，save 会终止当前所有的请求，bgsave会重新开启一个进程进行备份。\nsave 和 bgsave可以通过设置的方式进行周期性的备份。\n\n## 4 RDB的缺点\nsave命令会终止当前所有的请求，专心开始执行持久化工作，这个时候系统是不可用的。所以一般这个命令是不用的，除非在请求量比较少的时候，save命令花费的时间比较小。\n\nbgsave是重新创建一个进程，与主线程一块进行操作，但是当内存比较大时，创建进程所需要的时间会很长，再加上多进程处理，花费的时间往往比save命令多一些。"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6npgud6f8o0",
+                                            "created": 1603805123425,
+                                            "text": "AOF",
+                                            "note": "# AOF\n\n## 1 AOF是什么\nAOF是redis的一种持久化机制，通过把redis命令同步到硬盘文件，完成存储\n\n## 2 为什么是AOF\nAOF 可以设置刷盘的频率和时间，如果说设置每秒一次刷盘的时候，这个时候的性能能够达到最优，对于追求性能的应用来说，是可以满足性能要求的，\n但是 AOF 也可能丢失命令，把刷盘时间设置的足够小，则可以减少丢失数据的概率\n\n\n## 3 怎么做\n设置多长时间进行刷盘，针对硬盘的种类，AOF的性能也是不一样的。\n\n针对AOF文件过大的问题，可以采用定期压缩AOF文件的办法，减少AOF文件所占用的空间。\n\n## 4 缺点\nAOF生成的文件过大，导致数据恢复时，浪费很长时间。\n\nAOF在某些场景下可能会丢失数据。"
                                         },
                                         "children": []
                                     }

@@ -60,7 +60,7 @@ graph scavenge{
  node[shape ="box" fontname="weiruanyahei"]
  edge[fontname ="weiruanyahei"]
 
- subgraph  clusteryoung {
+ subgraph  clusteryoung { 
      randdir="LR"
      label = "young"
      ParaLLelScavenge
