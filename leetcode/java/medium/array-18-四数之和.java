@@ -1,3 +1,8 @@
+import java.awt.List;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Map;
+
 /*
  * @lc app=leetcode.cn id=18 lang=java
  *
@@ -34,20 +39,56 @@
  * 
  */
 
- /**
-  * 两数之和，排序后可以用双指针，因为排序后 利用双指针可以缩小问题的规模
- *           可以用Map存储，这样可以遍历一次就可以完成搜索
- *  三数之和  三数之和如果不采用排序的方法，则可先确定一个数，再去确定另外一个数，找第三个数，这样的时间复杂度为O(N*N*N)
- * 如果采用 排序后的方法，则可以使用缩小问题规模的方法对原问题进行削减。
+/**
+ * 两数之和，排序后可以用双指针，因为排序后 利用双指针可以缩小问题的规模 可以用Map存储，这样可以遍历一次就可以完成搜索 三数之和
+ * 三数之和如果不采用排序的方法，则可先确定一个数，再去确定另外一个数，找第三个数，这样的时间复杂度为O(N*N*N) 如果采用
+ * 排序后的方法，则可以使用缩小问题规模的方法对原问题进行削减。
  * 
- * 四数之和 四数之和采用的方法与三数之和类似，先进行排序，固定其中一个数后，采用三数之和的办法进行求解
-  */
+ * 四数之和 四数之和采用的方法与三数之和类似，先进行排序，固定其中一个数后，采用三数之 和的办法进行求解
+ * 
+ * 存在改进方案，这个是确定两个数，然后去找后两个数，是否有改进的地方？
+ */
 
 // @lc code=start
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
 
+        if (nums == null || nums.length < 4) {
+            return new ArrayList();
+        }
+        // map 去重
+        Map<String, List<Integer>> map = new HashMap();
+
+        Arrays.sort(nums); // 这里排序的原因是为了辅助去重
+        for (int i = 0; i <= nums.length - 4; i++) {
+            int targeti = target - nums[i];
+            for (int j = i + 1; j <= nums.length - 3; j++) {
+                int targetj = targeti - nums[j];
+                Map<Integer, Integer> result = new HashMap();
+                for (int k = j + 1; k < nums.length; k++) {
+                    if (result.containsKey(nums[k])) {
+                        String index = String.format("%s_%s_%s_%s", nums[i], nums[j], targetj - nums[k], nums[k]);
+                        List<Integer> list = new LinkedList<>();
+                        list.add(nums[i]);
+                        list.add(nums[j]);
+                        list.add(targetj - nums[k]);
+                        list.add(nums[k]);
+                        map.putIfAbsent(index, list);
+                    } else {
+                        result.put(targetj - nums[k], null);
+                    }
+                }
+
+            }
+
+        }
+
+        List<List<Integer>> re = new ArrayList();
+        for (List<Integer> list : map.values()) {
+            re.add(list);
+        }
+        return re;
+
     }
 }
 // @lc code=end
-
