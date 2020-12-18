@@ -61,48 +61,77 @@ import java.util.List;
  * 2 对于这类寻找所有可行解的题，我们都可以尝试用「搜索回溯」的方法来解决[保底算法]
  * 3 每次遇到的问题是一样的，可以采用Map存储搜索过程中已经搜索过的过程。
  * 4 此题仔细想了一下，不能用类似背包问题的动态规划方法求解，因为背包问题里d[i][j]的意思是用 i 和 i 之前的元素组成J时有多少种组成方法，而不是具体的组成方案。故不用
+ * 
+ * 
+ * 这个问题从网上看的解题思路是用回溯法，不过回溯法本身有一个缺陷就是算法本身时间复杂度高，并且在回溯的过程中，如果不进行优化，许多搜索路径是重复的，这种算法实际上可以作为一种保底的算法，可采取存储已搜索路劲的方式存储已经找的部分答案。
+ * 
+ * 回溯法 在此题应用的时候需要记录搜索的路径，这个题目的初步设想是当搜索未完成时，如果已发现接下来要搜索的路径已经被记录(被记录的路径是能够找到解的)，则可把当前节点记录到Map中，从而
+ * 
+ * 尝试找到解，会存在丢调解  [1,2] 3 ,会丢失 1,1,1 这个解
  */
 
 // @lc code=start
 class Solution {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-       // 初始化
-       Map<Integer,List<List<Integer>>> map = new HashMap();
-       for (int i :candidates){
-           List<Integer> li = new ArrayList();
-           li.add(i);
-           map.put(i,li);
-       }
+    
+    public  List<List<Integer>> combinationSum(int[] candidates, int target) {
+        // 初始化
+
+        Arrays.sort(candidates);
+        // 此目的为如果节点本身为候选数组里的元素。
+        List<List<Integer>> list = new ArrayList();
+        LinkedList<Integer> path = new LinkedList<>();
+
+        findResult(candidates, target, list, path, 0);
+        return list;
 
     }
 
-    private void findResult(int [] candidates, int target, Map<Integer,List<List<Integer>>> map,List<List<Integer>> list,LinkedList<Integer> path){
-          
-        if (target <=0){
-            return ;
+    /**
+     *
+     * @param candidates
+     * @param target
+     * @param list
+     * @param path
+     * @param index      递归时从哪里开始搜索，保证有序
+     */
+
+    private  void findResult(int[] candidates, int target, List<List<Integer>> list, LinkedList<Integer> path,
+            int index) {
+        if (target < 0) {
+            return;
+
+        } else if (target == 0) {
+            if (isValid(path)) {
+                List<Integer> re = new ArrayList<>();
+                re.addAll(path);
+                list.add(re);
+            }
+            return;
         }
-        // 先查找Map是否有记录
-        path.addLast(target);
-        for (int i = 0;i<candidates.length;i++){
-            if (map.get(target - candidates[i])){
-                List<List<Integer>> mList = map.get(target-candidates[i]);
-                for (List<Integer> item : mList){
-                    item.addAll(path);
-                    // 加入全局路径
-                    List<Integer> re = new ArrayList();
-                    re.addAll(path);
-                    re.addAll(item);
-                    list.add(re);
-                }
+
+        // 递归查找，利用升序解达到去重目的
+        for (int i = index; i < candidates.length; i++) {
+            // 当前节点能够找到解
+            path.addLast(candidates[i]);
+            findResult(candidates, target - candidates[i], list, path, i);
+            path.removeLast();
+        }
+
+    }
+
+    private  boolean isValid(List<Integer> list) {
+        if (list == null || list.size() == 0) {
+            return false;
+        }
+        if (list.size() == 1) {
+            return true;
+        }
+        for (int i = 1; i < list.size(); i++) {
+            if (list.get(i) < list.get(i - 1)) {
+                return false;
             }
         }
-
-        // 递归
-        for (int i = 0;i<candidates.length;i++){
-            findResult(candidates, target-candidates[i], map, list, path);
-        }
-        path.removeLast();
-
+        return true;
     }
 }
 // @lc code=end
