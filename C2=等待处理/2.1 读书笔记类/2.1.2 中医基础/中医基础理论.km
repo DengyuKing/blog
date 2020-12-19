@@ -175,15 +175,11 @@
                         "data": {
                             "id": "c65ucpju9t40",
                             "created": 1601990825817,
-<<<<<<< HEAD
-                            "text": "丁火心"
-=======
                             "text": "丁火心",
                             "layout_right_offset": {
                                 "x": 143.74999785795808,
                                 "y": 0
                             }
->>>>>>> f633129c22adbac24d11b2db400a77afa5c25694
                         },
                         "children": [
                             {
@@ -328,15 +324,11 @@
                         "data": {
                             "id": "c65ucvmm15s0",
                             "created": 1601990839045,
-<<<<<<< HEAD
-                            "text": "辛金肺"
-=======
                             "text": "辛金肺",
                             "layout_left_offset": {
                                 "x": -246,
                                 "y": -38
                             }
->>>>>>> f633129c22adbac24d11b2db400a77afa5c25694
                         },
                         "children": [
                             {
@@ -646,11 +638,7 @@
                         "data": {
                             "id": "c65ucrl7w940",
                             "created": 1601990830254,
-<<<<<<< HEAD
-                            "text": "　戊土胃"
-=======
                             "text": "戊土胃"
->>>>>>> f633129c22adbac24d11b2db400a77afa5c25694
                         },
                         "children": []
                     },
