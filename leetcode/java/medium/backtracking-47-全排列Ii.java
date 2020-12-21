@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /*
  * @lc app=leetcode.cn id=47 lang=java
@@ -45,10 +47,15 @@ import java.util.Arrays;
  * -10 
  * 
  *  在全排列的基础上增加去重功能，首先需要对数组进行排序
+ *  此题的关键在于去重，总体思路有两个，基于交换的排序和基于记录使用的元素方法
  */
 
 // @lc code=start
 class Solution {
+
+    Set<String> set = new HashSet();
+
+
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> list = new ArrayList();
         Arrays.sort(nums);
@@ -59,10 +66,16 @@ class Solution {
     private void findOne(int[] nums, List<List<Integer>> list, int index) {
         if (index == nums.length) {// 已经搜集了所有的节点，这种方式多一次函数调用
             List<Integer> re = new ArrayList();
+            StringBuffer sb = new StringBuffer();
+
             for (int i = 0; i < nums.length; i++) {// int [] 转 List 没有很好的办法，采取迭代转化
                 re.add(nums[i]);
+                sb.append(nums[i]);
             }
-            list.add(re);
+            if (!set.contains(sb.toString())) {
+                list.add(re);
+                set.add(sb.toString());
+            }
             return;
         }
         for (int i = index; i < nums.length; i++) {
@@ -77,6 +90,8 @@ class Solution {
             swap(nums, index, i);
 
         }
+
+    
 
     }
 
