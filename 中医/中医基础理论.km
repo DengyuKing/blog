@@ -1,0 +1,776 @@
+{
+    "root": {
+        "data": {
+            "id": "c65tzsxdspc0",
+            "created": 1601989814432,
+            "text": "基本框图"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c65u0vl7mj40",
+                    "created": 1601989898590,
+                    "text": "木",
+                    "layout_mind_offset": {
+                        "x": 512.4999988451601,
+                        "y": 307.49999683350336
+                    },
+                    "background": "#73a1bf"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucqbok4g0",
+                            "created": 1601990827500,
+                            "text": "甲木胆 "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucqtypo80",
+                            "created": 1601990828606,
+                            "text": "乙木肝"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c66g21vug1c0",
+                                    "created": 1602052055076,
+                                    "text": " 目"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g2asyxeo0",
+                                    "created": 1602052074493,
+                                    "text": "色青"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g2i852uo0",
+                                    "created": 1602052090648,
+                                    "text": "闻起来臊的东西入肝"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g2qiuz2g0",
+                                    "created": 1602052108711,
+                                    "text": "吃起来酸的东西入肝"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g341rhb40",
+                                    "created": 1602052138152,
+                                    "text": "声呼"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g3dkv6ts0",
+                                    "created": 1602052158898,
+                                    "text": "液泪"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gj9ed1140",
+                                    "created": 1602053403624,
+                                    "text": "气风"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gjeu7km00",
+                                    "created": 1602053415466,
+                                    "text": "志怒"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g3whq9i80",
+                                    "created": 1602052200067,
+                                    "text": "肝主色",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c66g41fi17c0",
+                                            "created": 1602052210816,
+                                            "text": "肝气入心为赤"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66g48x8xrs0",
+                                            "created": 1602052227127,
+                                            "text": "肝气入肺为白"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66g4bp2mkw0",
+                                            "created": 1602052233163,
+                                            "text": "肝气入肾为黑"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66g4evedgo0",
+                                            "created": 1602052240076,
+                                            "text": "肝气入脾为黄"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gq1jz1400",
+                                    "created": 1602053935098,
+                                    "text": "肝统血",
+                                    "priority": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65u14s182w0",
+                    "created": 1601989918594,
+                    "text": "火",
+                    "layout_mind_offset": {
+                        "x": 37,
+                        "y": -1042
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucowbvv40",
+                            "created": 1601990824395,
+                            "text": "丙火小肠"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucpju9t40",
+                            "created": 1601990825817,
+                            "text": "丁火心",
+                            "layout_right_offset": {
+                                "x": 143.74999785795808,
+                                "y": 0
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c66g51dszlc0",
+                                    "created": 1602052289078,
+                                    "text": "舌"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g575tcio0",
+                                    "created": 1602052301656,
+                                    "text": "色赤"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g58v9hy00",
+                                    "created": 1602052305371,
+                                    "text": "闻起来焦的东西入心"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g5koflvc0",
+                                    "created": 1602052331079,
+                                    "text": "吃起来苦的东西入心"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g5q16wf40",
+                                    "created": 1602052342735,
+                                    "text": "声笑"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g5xtofp40",
+                                    "created": 1602052359695,
+                                    "text": "液汗"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gixy68q80",
+                                    "created": 1602053378701,
+                                    "text": "气热"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gj25kbio0",
+                                    "created": 1602053387855,
+                                    "text": "志喜"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g6433k5s0",
+                                    "created": 1602052373325,
+                                    "text": "心主嗅",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c66g6y4j2og0",
+                                            "created": 1602052438715,
+                                            "text": "心气入脾为香"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66g767jafk0",
+                                            "created": 1602052456311,
+                                            "text": "心气入肺为腥"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66g7id07h40",
+                                            "created": 1602052482763,
+                                            "text": "心气入肾为腐"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66g7rcvl4o0",
+                                            "created": 1602052502347,
+                                            "text": "心气入肝为臊"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gq6yujts0",
+                                    "created": 1602053946882,
+                                    "text": "心统神",
+                                    "priority": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65u19x3yeg0",
+                    "created": 1601989929785,
+                    "text": "金",
+                    "layout_mind_offset": {
+                        "x": -1041.0000014305115,
+                        "y": -1033.0000095367432
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucuu94nk0",
+                            "created": 1601990837330,
+                            "text": "庚金大肠"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucvmm15s0",
+                            "created": 1601990839045,
+                            "text": "辛金肺",
+                            "layout_left_offset": {
+                                "x": -246,
+                                "y": -38
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c66g8c8r4k00",
+                                    "created": 1602052547810,
+                                    "text": "鼻"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g8ii5l8g0",
+                                    "created": 1602052561439,
+                                    "text": "色白"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g8nyqaoo0",
+                                    "created": 1602052573325,
+                                    "text": "闻起来腥的东西入肺"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g8xt49aw0",
+                                    "created": 1602052594753,
+                                    "text": "吃起来辛的东西入肺"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g91ujneo0",
+                                    "created": 1602052603547,
+                                    "text": "声哭",
+                                    "layout_left_offset": {
+                                        "x": -28,
+                                        "y": -4
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g9btmhnc0",
+                                    "created": 1602052625259,
+                                    "text": "液涕",
+                                    "layout_left_offset": {
+                                        "x": -56,
+                                        "y": -7
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66g9mttyrc0",
+                                    "created": 1602052649216,
+                                    "text": "肺主声",
+                                    "priority": 1,
+                                    "layout_left_offset": {
+                                        "x": -137,
+                                        "y": 206
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c66g9xastrs0",
+                                            "created": 1602052672010,
+                                            "text": "肺气入心为言"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66ga9xt5y00",
+                                            "created": 1602052699523,
+                                            "text": "肺气入肝为呼"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gadh7z880",
+                                            "created": 1602052707227,
+                                            "text": "肺气入脾为歌"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gak0oxr40",
+                                            "created": 1602052721465,
+                                            "text": "肺气入肾为呻"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gl0154680",
+                                    "created": 1602053539962,
+                                    "text": "气燥",
+                                    "layout_left_offset": {
+                                        "x": -89,
+                                        "y": -152
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gl6d400g0",
+                                    "created": 1602053553747,
+                                    "text": "志悲",
+                                    "layout_left_offset": {
+                                        "x": -101,
+                                        "y": -152
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66godkgtiw0",
+                                    "created": 1602053804521,
+                                    "text": "肺统气 ",
+                                    "priority": 2,
+                                    "layout_left_offset": {
+                                        "x": -156,
+                                        "y": 242.00000250339508
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65u1b2xpyw0",
+                    "created": 1601989932314,
+                    "text": "水",
+                    "layout_mind_offset": {
+                        "x": -125,
+                        "y": 582
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucg5jswo0",
+                            "created": 1601990805362,
+                            "text": "壬水膀胱"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65ucu0yv2w0",
+                            "created": 1601990835560,
+                            "text": "癸水肾"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c66g9ji4z6w0",
+                                    "created": 1602052641979,
+                                    "text": "耳"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gaxuj3480",
+                                    "created": 1602052751567,
+                                    "text": "色黑"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gb3vuo800",
+                                    "created": 1602052764708,
+                                    "text": "闻起来腐的东西入心"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gbh54itc0",
+                                    "created": 1602052793567,
+                                    "text": "吃起来咸的东西入肾"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gbo78u140",
+                                    "created": 1602052808932,
+                                    "text": "声呻"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gc1eha740",
+                                    "created": 1602052837668,
+                                    "text": "液唾"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gkih9vps0",
+                                    "created": 1602053501755,
+                                    "text": "气寒"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gkqmslb40",
+                                    "created": 1602053519504,
+                                    "text": "志恐"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gcb7906o0",
+                                    "created": 1602052858999,
+                                    "text": "肾主液",
+                                    "priority": 1,
+                                    "layout_left_offset": {
+                                        "x": -12,
+                                        "y": -12
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c66gch4mcoo0",
+                                            "created": 1602052871900,
+                                            "text": "肾气入肝为泪"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gcued4tc0",
+                                            "created": 1602052900788,
+                                            "text": "肾气入心为汗"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gcyxjuw80",
+                                            "created": 1602052910655,
+                                            "text": "肾气入肺为涕"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gd3q5gtc0",
+                                            "created": 1602052921091,
+                                            "text": "肾气入脾为涎"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c66govb4qew0",
+                                    "created": 1602053843139,
+                                    "text": "肾统精",
+                                    "priority": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c65uc547uko0",
+                    "created": 1601990781337,
+                    "text": "土",
+                    "layout_mind_offset": {
+                        "x": 764,
+                        "y": -178
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c65ucrl7w940",
+                            "created": 1601990830254,
+                            "text": "戊土胃"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c65uct6xmy00",
+                            "created": 1601990833744,
+                            "text": "己土脾"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c66gdiu7vhk0",
+                                    "created": 1602052953989,
+                                    "text": "口"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gf0q10vc0",
+                                    "created": 1602053071282,
+                                    "text": "色黄"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gf2ha3co0",
+                                    "created": 1602053075107,
+                                    "text": "闻起来香的东西入脾"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gfemynbk0",
+                                    "created": 1602053101571,
+                                    "text": "吃起来甜的东西入脾"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gfpf9sco0",
+                                    "created": 1602053125051,
+                                    "text": "声歌"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gg1th2n40",
+                                    "created": 1602053152031,
+                                    "text": "液涎"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gjnziqzs0",
+                                    "created": 1602053435379,
+                                    "text": "气湿"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gjxqk1mw0",
+                                    "created": 1602053456604,
+                                    "text": "志思"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gg82zsug0",
+                                    "created": 1602053165668,
+                                    "text": "脾主味",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c66gge81yso0",
+                                            "created": 1602053179034,
+                                            "text": "脾气入心为苦"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gglaok6g0",
+                                            "created": 1602053194431,
+                                            "text": "脾气入肝为酸"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66ggpufa1s0",
+                                            "created": 1602053204331,
+                                            "text": "脾气入肾为咸"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c66gh3q7seg0",
+                                            "created": 1602053234552,
+                                            "text": "脾气入肺为辛"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c66gpe64ny00",
+                                    "created": 1602053884195,
+                                    "text": "脾化气血精神",
+                                    "priority": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}

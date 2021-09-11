@@ -1,0 +1,1653 @@
+{
+    "root": {
+        "data": {
+            "id": "c5ylzz9em6o0",
+            "created": 1601256339644,
+            "text": "技术成长笔记",
+            "note": "# \n注重效率，工具不满意，可以先用，慢慢的改善工具的效率。"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c5ym0tgzg280",
+                    "created": 1601256405405,
+                    "text": "程序员的三门课",
+                    "layout_mind_offset": {
+                        "x": 59,
+                        "y": -167
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5ym2quwwgo0",
+                            "created": 1601256556446,
+                            "text": "技术",
+                            "priority": 1,
+                            "layout_right_offset": {
+                                "x": 43,
+                                "y": -74
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5ym46hqlfc0",
+                                    "created": 1601256668842,
+                                    "text": "1.1 技能成长"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5z1yi8mj480",
+                                            "created": 1601301361986,
+                                            "text": "新的编程语言"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1ympwzfk0",
+                                            "created": 1601301371738,
+                                            "text": "静态代码分析工具"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1ys45k6o0",
+                                            "created": 1601301383483,
+                                            "text": "代码审查"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1yu0c9zs0",
+                                            "created": 1601301387606,
+                                            "text": "任务执行清单和模板"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1z2vcn6g0",
+                                            "created": 1601301406895,
+                                            "text": "工作法则",
+                                            "note": "# 工作法则的理解和说明\n\n 这里的工作法则是开发日常中怎么去做，如何把事情做的又快又好的方法。\n\n对于程序员来说，如何写出高质量的代码，有一种保障其工作的机制是很必要的。\n\n这里的工作法则就是一切可以提升效率的方法和工具。",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5zgu7a95m00",
+                                                    "created": 1601343341331,
+                                                    "text": "工具化 和自动化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5zguecugeo0",
+                                                    "created": 1601343356726,
+                                                    "text": "流程化"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z1z5l8z8w0",
+                                                    "created": 1601301412815,
+                                                    "text": "工具箱"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym48kte8g0",
+                                    "created": 1601256673381,
+                                    "text": "1.2 学习 "
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5z1zq4xups0",
+                                            "created": 1601301457541,
+                                            "text": "自身心态"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z20f0acgo0",
+                                                    "created": 1601301511679,
+                                                    "text": "不怕犯错误，敢于犯错误"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z20o08zj40",
+                                                    "created": 1601301531268,
+                                                    "text": "注重细节，复盘能力"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z20vqmx400",
+                                                    "created": 1601301548101,
+                                                    "text": "时间管理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgyw4k6680",
+                                                            "created": 1601343708863,
+                                                            "text": "意义不大的会议"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgyzmxvmw0",
+                                                            "created": 1601343716505,
+                                                            "text": "想清楚再编码"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgz3yvyjc0",
+                                                            "created": 1601343725935,
+                                                            "text": "计划清单"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zgz44he7c0",
+                                                            "created": 1601343726273,
+                                                            "text": "设置事情的优先级"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z20ytr2zk0",
+                                                    "created": 1601301554820,
+                                                    "text": "打破边界"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z25zayahs0",
+                                                    "created": 1601301947681,
+                                                    "text": "注重代码规范"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z1zr642ts0",
+                                            "created": 1601301459789,
+                                            "text": "方法论"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z26lsxry80",
+                                                    "created": 1601301996657,
+                                                    "text": "方法与途径"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zhfou05jk0",
+                                                            "created": 1601345025178,
+                                                            "text": "目标管理"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhg0wx5dk0",
+                                                                    "created": 1601345051476,
+                                                                    "text": "评估能力"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhg32fuvk0",
+                                                                    "created": 1601345056163,
+                                                                    "text": "制定目标"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhg5524dc0",
+                                                                    "created": 1601345060675,
+                                                                    "text": "评估目标"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zhfr78iuw0",
+                                                            "created": 1601345030332,
+                                                            "text": "提升途径",
+                                                            "layout_right_offset": {
+                                                                "x": 30,
+                                                                "y": 224
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhitz3okw0",
+                                                                    "created": 1601345271463,
+                                                                    "text": "有目的性阅读"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhj0vepr40",
+                                                                    "created": 1601345286477,
+                                                                    "text": "在线课程"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhjgdk7fs0",
+                                                                    "created": 1601345320226,
+                                                                    "text": "开源项目",
+                                                                    "priority": null
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhjks4tjc0",
+                                                                    "created": 1601345329815,
+                                                                    "text": "编程竞赛"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhl1wb11k0",
+                                                                    "created": 1601345445437,
+                                                                    "text": "博客"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zhhqc6row0",
+                                                            "created": 1601345185183,
+                                                            "text": "学习时间和专注",
+                                                            "layout_right_offset": {
+                                                                "x": 50,
+                                                                "y": -157
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhhunlils0",
+                                                                    "created": 1601345194580,
+                                                                    "text": "利用碎片化时间"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zhi55ltlk0",
+                                                                    "created": 1601345217437,
+                                                                    "text": "同一时间专注一件事情"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z26yhd07c0",
+                                                    "created": 1601302024256,
+                                                    "text": "两个理论",
+                                                    "layout_right_offset": {
+                                                        "x": 9,
+                                                        "y": 100
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zh21mz0680",
+                                                            "created": 1601343955953,
+                                                            "text": "德雷福斯模型",
+                                                            "note": "# 德雷福斯模型\n\n德雷福斯模型把一个行业的人按照经验的不同，分为新手，高级新手，胜任者，精通者，专家五个级别，每个级别又分别有不同的技能要求。\n\n## 新手\n需要指令清单，需要别人告诉你怎么去做，自己对整体没有一个全新的认识。\n\n## 高级新手\n仍然缺乏全局思维，能够或多或少的摆脱现有固定思维和独自尝试任务，但是呢，难以解决问题。\n\n## 胜任者\n\n能够解决问题，有主动性和足智多谋，具有初步的全局思维，初步的全局理解。能够指导新手。\n\n## 精通者\n\n能够自我纠正，需要全局思维，具有有点及面的求知渴望，能够了解行业的规则。\n\n## 专家\n\n经验丰富，总是不断需找最好的方法和方式做事情，以输出文章和自己见解为代表。\n\n\n## 新手和专家的区别\n\n- 新手使用规则，专家使用直觉\n- 新手通过模仿和观察学习，专家需要保持实践维持专家水平。"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh2ss1ch40",
+                                                                    "created": 1601344015032,
+                                                                    "text": "新手"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh2uctta00",
+                                                                    "created": 1601344018466,
+                                                                    "text": "高级新手"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh2vyhh680",
+                                                                    "created": 1601344021953,
+                                                                    "text": "胜任者"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh358y4dk0",
+                                                                    "created": 1601344042176,
+                                                                    "text": "精通者"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5zh3bx5vds0",
+                                                                    "created": 1601344056701,
+                                                                    "text": "专家"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5zh27f02ns0",
+                                                            "created": 1601343968532,
+                                                            "text": "刻意锻炼理论"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym4ap2yfc0",
+                                    "created": 1601256677993,
+                                    "text": "1.3 业务分析设计",
+                                    "layout_right_offset": {
+                                        "x": 10,
+                                        "y": 87
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5z2bd0cyso0",
+                                            "created": 1601302369336,
+                                            "text": "黄金圈法则"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z2bg1vw8w0",
+                                            "created": 1601302375959,
+                                            "text": "系统分析工具"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5zggy6w0u00",
+                                                    "created": 1601342302803,
+                                                    "text": "uml图"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z2bipvesg0",
+                                            "created": 1601302381763,
+                                            "text": "业务分析和设计的方法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z2dclykkw0",
+                                                    "created": 1601302525194,
+                                                    "text": "面向对象设计"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2dfgitmw0",
+                                                    "created": 1601302531395,
+                                                    "text": "面向组件设计"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2dibkyps0",
+                                                    "created": 1601302537627,
+                                                    "text": "面向服务设计"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5z2dyag7s00",
+                                            "created": 1601302572387,
+                                            "text": "业务分析和设计的三个阶段"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5z2e9pbkzk0",
+                                                    "created": 1601302597231,
+                                                    "text": "面向数据"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2ee4v5bs0",
+                                                    "created": 1601302606878,
+                                                    "text": "面向对象和服务"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5z2fct6plk0",
+                                                    "created": 1601302682359,
+                                                    "text": "面向问题域"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5ym354wfuo0",
+                            "created": 1601256587524,
+                            "text": "架构",
+                            "priority": 2,
+                            "layout_right_offset": {
+                                "x": 41,
+                                "y": 13
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5ym5b55bds0",
+                                    "created": 1601256757328,
+                                    "text": "架构思维"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c673zcbti5c0",
+                                            "created": 1602119549355,
+                                            "text": "分解"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6743vanc140",
+                                                    "created": 1602119904100,
+                                                    "text": "高内聚，低耦合"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674422a9ew0",
+                                                    "created": 1602119918832,
+                                                    "text": "层次性"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6744caw6aw0",
+                                                    "created": 1602119941120,
+                                                    "text": "正交原则"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6744is7be00",
+                                                    "created": 1602119955227,
+                                                    "text": "抽象原则"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6744lmcjgo0",
+                                                    "created": 1602119961404,
+                                                    "text": "稳定性原则"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6744r23rcg0",
+                                                    "created": 1602119973240,
+                                                    "text": "复用原则"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c673zhdvihk0",
+                                            "created": 1602119560364,
+                                            "text": "集成"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6745u3y1yw0",
+                                                    "created": 1602120058246,
+                                                    "text": "集成的难点",
+                                                    "layout_right_offset": {
+                                                        "x": 89,
+                                                        "y": 160
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6746pahgq00",
+                                                            "created": 1602120126122,
+                                                            "text": "数据服务设计"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c6746rlm67k0",
+                                                            "created": 1602120131149,
+                                                            "text": "数据一致性"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c6748dw3sjk0",
+                                                                    "created": 1602120258036,
+                                                                    "text": "分布式事务"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c6748g38ai00",
+                                                                    "created": 1602120262821,
+                                                                    "text": "事件源技术应对数据一致性"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c6746tw8jwg0",
+                                                            "created": 1602120136144,
+                                                            "text": "分布式查询"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6745xmflo80",
+                                                    "created": 1602120065894,
+                                                    "text": "集成的方式",
+                                                    "layout_right_offset": {
+                                                        "x": 83,
+                                                        "y": -163
+                                                    },
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c674560lsog0",
+                                                            "created": 1602120005802,
+                                                            "text": "点对点集成方式"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c674596ohyg0",
+                                                            "created": 1602120012699,
+                                                            "text": "API网关方式"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c6745jzd2bs0",
+                                                            "created": 1602120036201,
+                                                            "text": "消息代理方式，消息中间件"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67417nvoqo0",
+                                            "created": 1602119695929,
+                                            "text": "复用"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c674a61wxg00",
+                                                    "created": 1602120397702,
+                                                    "text": "常规复用",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6749v85en40",
+                                                            "created": 1602120374134,
+                                                            "text": "代码复用"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c6749wucy6g0",
+                                                            "created": 1602120377654,
+                                                            "text": "算法复用"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c674a0ykpjc0",
+                                                            "created": 1602120386616,
+                                                            "text": "数据结构复用"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674athrtv40",
+                                                    "created": 1602120448726,
+                                                    "text": "系统复用",
+                                                    "layout_right_offset": {
+                                                        "x": 0,
+                                                        "y": 2
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c674ba99s0o0",
+                                                            "created": 1602120485218,
+                                                            "text": "设计复用"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c674bbz60fs0",
+                                                            "created": 1602120488960,
+                                                            "text": "分析复用"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674casty3s0",
+                                                    "created": 1602120564765,
+                                                    "text": "可维护性和可复用的关系"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c674d6s0oyg0",
+                                                            "created": 1602120634373,
+                                                            "text": "提高复用，系统可维护"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c674dovg7bs0",
+                                                            "created": 1602120673762,
+                                                            "text": "提高复用，系统可扩展",
+                                                            "layout_right_offset": {
+                                                                "x": 19,
+                                                                "y": 25
+                                                            }
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674e1fem5c0",
+                                                                    "created": 1602120701090,
+                                                                    "text": "开闭原则"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674e44r3o00",
+                                                                    "created": 1602120706976,
+                                                                    "text": "里氏替换原则"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674e7z01sw0",
+                                                                    "created": 1602120715336,
+                                                                    "text": "依赖倒转原则"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674ectobrs0",
+                                                                    "created": 1602120725897,
+                                                                    "text": "聚合复用"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c674dtcag7k0",
+                                                            "created": 1602120683487,
+                                                            "text": "提高复用，系统灵活性"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674ei2ukwo0",
+                                                                    "created": 1602120737336,
+                                                                    "text": "开闭原则"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674ekozaew0",
+                                                                    "created": 1602120743028,
+                                                                    "text": "迪米特原则"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c674et3pa5c0",
+                                                                    "created": 1602120761332,
+                                                                    "text": "接口隔离原则"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67419m7d1s0",
+                                            "created": 1602119700181,
+                                            "text": "分层"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6741dh1s9c0",
+                                            "created": 1602119708577,
+                                            "text": "模式"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c674gxou6uo0",
+                                                    "created": 1602120928046,
+                                                    "text": "分层模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674gza9eao0",
+                                                    "created": 1602120931518,
+                                                    "text": "客户端-服务器模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674h5183g00",
+                                                    "created": 1602120944032,
+                                                    "text": "主从设备模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674hac9r340",
+                                                    "created": 1602120955584,
+                                                    "text": "管道过滤器模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674hd8l47c0",
+                                                    "created": 1602120961892,
+                                                    "text": "代理模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674hf1m6u00",
+                                                    "created": 1602120965824,
+                                                    "text": "P2P模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674htc6d800",
+                                                    "created": 1602120996937,
+                                                    "text": "事件总线模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674hxgl2cg0",
+                                                    "created": 1602121005911,
+                                                    "text": "MVC模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674i034wqw0",
+                                                    "created": 1602121011628,
+                                                    "text": "黑板模式"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c674hfx1uoo0",
+                                                    "created": 1602120967724,
+                                                    "text": "解释器模式"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6741elhggw0",
+                                            "created": 1602119711022,
+                                            "text": "抽象"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6741foojo80",
+                                            "created": 1602119713392,
+                                            "text": "结构化",
+                                            "note": "# 结构化(写下来的东西应该是给自己看的，每一个概念都应该是弄懂的)\n\n## 结构化的应用场景\n\n结构化是一种从框架到细节的思维方式，在分析问题的过程中，不先入为主，不马上陷入细节，结构化的核心在于对问题正确界定，什么叫正确界定？\n\n对问题的构成进行合理的分类，对重点环节进行分析。\n\n## 结构化的原则\n\n- 从问题出发\n- 明确做事情的目的\n- 根据目标倒推需要做哪些工作和任务\n- 不应先入为主，避免陷入细节\n- 对不同的观点进行分组，分组后经过抽象后进行详细分类。\n- 分类应该具有排他性，整体无遗漏\n\n## 结构化工具\n- 逻辑树\n- 议题树\n- 假设树\n- 是否树\n- 80/20原则，20%的投入导致80%的产出\n\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6741iy9tnc0",
+                                            "created": 1602119720502,
+                                            "text": "迭代"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6741ly0l0g0",
+                                            "created": 1602119727017,
+                                            "text": "不要过度设计"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym5cgs0200",
+                                    "created": 1601256760208,
+                                    "text": "架构设计核心要素",
+                                    "layout_right_offset": {
+                                        "x": 146,
+                                        "y": -53
+                                    },
+                                    "note": "业务需求到系统实现的一个转化，是对需求进一步分析的过程，用于去顶系统中实体与实体之间的关系，以及实体的形式和功能。\n\n架构从业务需求到系统实现分为：\n业务架构\n应用架构\n数据架构\n技术架构\n\n## 业务架构\n业务架构是对业务需求的描述，描述了"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c67424ge29k0",
+                                            "created": 1602119767310,
+                                            "text": "高性能"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c675rr6lndk0",
+                                                    "created": 1602124596998,
+                                                    "text": "性能指标",
+                                                    "expandState": "expand",
+                                                    "layout_right_offset": {
+                                                        "x": 0,
+                                                        "y": -272
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c675pypbihc0",
+                                                            "created": 1602124456639,
+                                                            "text": "响应时间"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675q6qhtp40",
+                                                            "created": 1602124474124,
+                                                            "text": "并发数"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675qa7k15s0",
+                                                            "created": 1602124481686,
+                                                            "text": "吞吐量"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675qexuuvk0",
+                                                            "created": 1602124491984,
+                                                            "text": "性能计数器"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c675qqha1u80",
+                                                                    "created": 1602124517103,
+                                                                    "text": "系统负载"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c675qspqpxc0",
+                                                                    "created": 1602124521968,
+                                                                    "text": "线程数"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c675qvjrh8w0",
+                                                                    "created": 1602124528137,
+                                                                    "text": "内存使用"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c675qy1ck3c0",
+                                                                    "created": 1602124533554,
+                                                                    "text": "磁盘和IO"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c675sbzbyjc0",
+                                                    "created": 1602124642271,
+                                                    "text": "性能测试方法",
+                                                    "layout_right_offset": {
+                                                        "x": 87,
+                                                        "y": -233
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c675t51qu1c0",
+                                                            "created": 1602124705544,
+                                                            "text": "性能测试"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675t874d140",
+                                                            "created": 1602124712399,
+                                                            "text": "负载测试"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675taxo3c00",
+                                                            "created": 1602124718358,
+                                                            "text": "压力测试"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675tcuqlm00",
+                                                            "created": 1602124722534,
+                                                            "text": "稳定性测试"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c675se6t3hs0",
+                                                    "created": 1602124647077,
+                                                    "text": "性能优化策略",
+                                                    "layout_right_offset": {
+                                                        "x": 102,
+                                                        "y": -128
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c675v4ijxao0",
+                                                            "created": 1602124861111,
+                                                            "text": "前端优化"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c6768tog5k00",
+                                                                    "created": 1602125934622,
+                                                                    "text": "浏览器缓存"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c6768w4awxc0",
+                                                                    "created": 1602125939934,
+                                                                    "text": "CDN"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c6769vuniyo0",
+                                                                    "created": 1602126017714,
+                                                                    "text": "代理服务器"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675v8itkww0",
+                                                            "created": 1602124869835,
+                                                            "text": "应用服务器优化"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676a713z6o0",
+                                                                    "created": 1602126042049,
+                                                                    "text": "缓存"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676a867tdc0",
+                                                                    "created": 1602126044535,
+                                                                    "text": "集群"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676a9t1xpc0",
+                                                                    "created": 1602126048093,
+                                                                    "text": "异步"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c675vc2pf740",
+                                                            "created": 1602124877567,
+                                                            "text": "存储性能优化"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676agrg4k80",
+                                                                    "created": 1602126063233,
+                                                                    "text": "数据库索引"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676an5qc0g0",
+                                                                    "created": 1602126077157,
+                                                                    "text": "分布式存储"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676arjvj8g0",
+                                                                    "created": 1602126086720,
+                                                                    "text": "磁盘阵列"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c674264mq680",
+                                            "created": 1602119770952,
+                                            "text": "高可用",
+                                            "layout_right_offset": {
+                                                "x": 118,
+                                                "y": -49
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c676b6t9rtc0",
+                                                    "created": 1602126119940,
+                                                    "text": "度量"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c676bgzze000",
+                                                            "created": 1602126142113,
+                                                            "text": "2个9"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c676bjmk5480",
+                                                            "created": 1602126147832,
+                                                            "text": "3个9"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c676blyj03s0",
+                                                            "created": 1602126152909,
+                                                            "text": "4个9"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c676bsyyatc0",
+                                                            "created": 1602126168172,
+                                                            "text": "5个9"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c676b8591xs0",
+                                                    "created": 1602126122841,
+                                                    "text": "考核"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c676cdsev8o0",
+                                                            "created": 1602126213489,
+                                                            "text": "故障分概念"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c676d54kl2o0",
+                                                    "created": 1602126272998,
+                                                    "text": "架构"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c676d7h13zs0",
+                                                            "created": 1602126278105,
+                                                            "text": "应用层"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c676d995mb40",
+                                                            "created": 1602126281982,
+                                                            "text": "服务层"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676dow6ens0",
+                                                                    "created": 1602126316026,
+                                                                    "text": "分层管理"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676dr3t5a80",
+                                                                    "created": 1602126320841,
+                                                                    "text": "超时设置"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676dtpqwug0",
+                                                                    "created": 1602126326521,
+                                                                    "text": "异步调用"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676dwuasu80",
+                                                                    "created": 1602126333327,
+                                                                    "text": "服务降级"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676e0v35200",
+                                                                    "created": 1602126342081,
+                                                                    "text": "拒绝服务"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676e3bxotk0",
+                                                                    "created": 1602126347454,
+                                                                    "text": "关闭功能"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676e6jgie80",
+                                                                    "created": 1602126354439,
+                                                                    "text": "幂等设计"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c676ji8ndo00",
+                                                            "created": 1602126771727,
+                                                            "text": "数据层"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676kn41dmg0",
+                                                                    "created": 1602126860698,
+                                                                    "text": "数据备份"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676komtubc0",
+                                                                    "created": 1602126864010,
+                                                                    "text": "失效转移"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676krar3o00",
+                                                                    "created": 1602126869810,
+                                                                    "text": "数据持久"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676kw5kymo0",
+                                                                    "created": 1602126880381,
+                                                                    "text": "数据可访问"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c676l0g93400",
+                                                                    "created": 1602126889733,
+                                                                    "text": "数据一致性"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67427cf9k80",
+                                            "created": 1602119773600,
+                                            "text": "可伸缩",
+                                            "note": "通过向集群中增加机器，而不会影响系统的线上运行。"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c67ce01q8hs0",
+                                                    "created": 1602143266965,
+                                                    "text": "不同功能的伸缩"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c67ce9de1aw0",
+                                                    "created": 1602143287262,
+                                                    "text": "同一个功能的伸缩"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67428tiuk00",
+                                            "created": 1602119776811,
+                                            "text": "可扩展 "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c675pp2do800",
+                                            "created": 1602124435661,
+                                            "text": "安全性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym5dzlyzs0",
+                                    "created": 1601256763524,
+                                    "text": "架构保障-质量和风险"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c67csoa3tag0",
+                                            "created": 1602144416813,
+                                            "text": "内建质量管理"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5ym367apyo0",
+                            "created": 1601256589846,
+                            "text": "管理",
+                            "priority": 3,
+                            "layout_right_offset": {
+                                "x": 106,
+                                "y": 240
+                            },
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5ym65yws140",
+                                    "created": 1601256824432,
+                                    "text": "自我价值目标"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym6a6hvy80",
+                                    "created": 1601256833597,
+                                    "text": "领导力",
+                                    "layout_right_offset": {
+                                        "x": 6,
+                                        "y": 3
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c67d8iebey00",
+                                            "created": 1602145657834,
+                                            "text": "以信任为基础的清晰领导力风格"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67d8n8v3rk0",
+                                            "created": 1602145668388,
+                                            "text": "了解业务，带领团队实现高绩效"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c67da27utnc0",
+                                                    "created": 1602145779343,
+                                                    "text": "了解业务需要有专门的认知框架"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67d8ng26o80",
+                                            "created": 1602145668823,
+                                            "text": "发展自己和团队成员"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c67d8opfz000",
+                                            "created": 1602145671567,
+                                            "text": "塑造未来"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5ym6itb7yo0",
+                                    "created": 1601256852391,
+                                    "text": "时间管理",
+                                    "layout_right_offset": {
+                                        "x": -2,
+                                        "y": 21
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c5ym1po13mw0",
+                    "created": 1601256475488,
+                    "text": "Netty,Redis,ZK高并发实战",
+                    "layout_mind_offset": {
+                        "x": -103.00000759959221,
+                        "y": 156.99999589507388
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5ym1re2lh40",
+                            "created": 1601256479240,
+                            "text": "基础知识",
+                            "layout_right_offset": {
+                                "x": 36,
+                                "y": -13
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c5ym8h39q3s0",
+                            "created": 1601257005368,
+                            "text": "Netty",
+                            "layout_right_offset": {
+                                "x": 65,
+                                "y": 2
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6sgahnwpdk0",
+                    "created": 1604287035385,
+                    "text": "量化投资"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}

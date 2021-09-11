@@ -1,0 +1,851 @@
+{
+    "root": {
+        "data": {
+            "id": "c10szvyywk80",
+            "created": 1583198407965,
+            "text": "java"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c10t1072dls0",
+                    "created": 1583198495526,
+                    "text": "java基础",
+                    "layout_mind_offset": {
+                        "x": -124,
+                        "y": -322.0000002682209
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c10t15y8rpk0",
+                            "created": 1583198508054,
+                            "text": "异常"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t4ad5pjs0",
+                            "created": 1583198752754,
+                            "text": "IO",
+                            "note": "# 网络IO，阻塞和非阻塞\n当用户程序发起read或者write系统调用时，用户进程会调用操作系统内核的IO系统操作。操作系统的IO操作分为两个部分，第一部分是从网卡缓冲区数据复制到操作系统内核缓冲区，第二部分是从操作系统的内核缓冲区复制到用户缓冲区。\n\nread和write的系统调用分别对应数据从内核缓冲区复制到用户缓冲区和数据从用户缓冲区复制到内核缓冲区。\n\n## 阻塞和阻塞\n当调用read或者write系统调用时，或者说当内核数据缓冲区和用户数据缓冲区有数据复制行为时。\n\n如果用户线程等待这一过程，不去往下执行，则此IO被称为是阻塞IO。\n\n如果用户线程调用后立刻返回，可以执行其他的代码，则该IO模型是非阻塞IO。\n\n## 同步与非同步\n\n阻塞和非阻塞描述的是IO是否需要等待问题，IO同步和非同步解决的是主动询问和被动通知的概念。\n\n系统调用之后，需要用户程序去主动询问的，则是同步IO。\n\n系统调用后内核程序主动通知用户程序的，是异步IO。\n\n目前完全异步的IO还没有，只是有部分异步IO。\n"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t3ejxxeo0",
+                            "created": 1583198683507,
+                            "text": "线程"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10tcwtjju80",
+                                    "created": 1583199428547,
+                                    "text": "线程池"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1g4hpxk3g00",
+                                            "created": 1584754236933,
+                                            "text": "future"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c1gbgkh5jrs0",
+                                                    "created": 1584773894462,
+                                                    "text": "FutureTask",
+                                                    "note": "# FutureTask\n\n1 状态转换\n\tNEW-> COMPLETING -> NORMAL\n    新申请，完成中，最后完成\n    NEW -> COMPLETING-    >EXCEPTIONAL\n    新申请，完成中 ，最后刨出异常\n    NEW -> CANCELLED\n    新申请 被取消\n    NEW -> INTERRUPTING -> INTERRUPTED\n    新申请 中断中，被中断\n    \n set 方法\n \n \n setException方法\n \n 1 get 方法\n \n 假设Task任务正在被线程B执行\n 当前线程A使用get方法时，先判断任务的状态，当任务的状态未完成时，执行以下的步骤循环步骤\n\n 循环开始\n 如果线程A被中断了，把线程A从当前任务的等待队列中移除，并抛出异常。\n \n 线程A判断任务的状态已完成的，释放waitNode的线程，返回完成状态\n \n  判断状态在完成中，线程A主动让出CPU，进入就绪态\n  \n  判断是否可被存储到队列，然后把当前线程A插入等待队列\n  \n  判断是否时间已经到了，如果到了清除等待队列中的线程，\n \n 2 cancel方法\n \n 3 run方法\n \n runAndRest方法\n 在没有抛出异常和被取消的情况下，\n 执行没有返回值的计算任务，然后把任务的状态设置为新申请\n \n handlePossibleCancellationInterrupt方法\n \nawaitDone方法\n\n\n1 为什么FutureTask要有那么多的方法和变量？\n\n2 FutureTask的场景是什么？\n\n\n\n \n "
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1g4hteclg80",
+                                            "created": 1584754244478,
+                                            "text": "面试"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c2459yclh2g0",
+                                                    "created": 1587193888413,
+                                                    "text": "线程池参数"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c245b3a6hd40",
+                                                            "created": 1587193977515,
+                                                            "text": "核心线程数"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245b69vqeo0",
+                                                            "created": 1587193984027,
+                                                            "text": "最大线程数"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245b8b09qo0",
+                                                            "created": 1587193988449,
+                                                            "text": "非核心线程存活时间"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245bds7g400",
+                                                            "created": 1587194000373,
+                                                            "text": "线程存活时间单位"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245bj9avrs0",
+                                                            "created": 1587194012290,
+                                                            "text": "线程拒绝策略"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245e3n3lqg0",
+                                                                    "created": 1587194213388,
+                                                                    "text": "抛异常"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245e5hv31k0",
+                                                                    "created": 1587194217425,
+                                                                    "text": "直接丢弃"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245edkzolc0",
+                                                                    "created": 1587194235029,
+                                                                    "text": "丢弃队列中最老的任务"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c245ge97fdk0",
+                                                                    "created": 1587194393221,
+                                                                    "text": "交给调用线程池的线程处理"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c245a4uz0i00",
+                                                    "created": 1587193902585,
+                                                    "text": "线程异常处理"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c245hj9jj400",
+                                                            "created": 1587194482490,
+                                                            "text": "try-catch"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245hlthxeo0",
+                                                            "created": 1587194488050,
+                                                            "text": "futrue.get"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245ihju24g0",
+                                                            "created": 1587194557123,
+                                                            "text": "通过线程工厂设置uncauntExceptionHandler"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245ivfayag0",
+                                                            "created": 1587194587324,
+                                                            "text": "通过继承线程池重写afterExcuter"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c245a7viak00",
+                                                    "created": 1587193909147,
+                                                    "text": "线程工作队列"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c245gt51ctc0",
+                                                            "created": 1587194425621,
+                                                            "text": "ArrayBlockingQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jh394xc0",
+                                                            "created": 1587194634484,
+                                                            "text": "LinkedBlockingQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jjxqvmg0",
+                                                            "created": 1587194640682,
+                                                            "text": "DelayQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jub8x3c0",
+                                                            "created": 1587194663266,
+                                                            "text": "PriorityBlockingQueue"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c245jyw6obk0",
+                                                            "created": 1587194673239,
+                                                            "text": "SynchronousQueue"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c245ag42nf40",
+                                                    "created": 1587193927080,
+                                                    "text": "常用线程池"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c10tcynwa3c0",
+                                    "created": 1583199432560,
+                                    "text": "同步"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10tg3xrcjs0",
+                                            "created": 1583199679132,
+                                            "text": "阻塞同步sync ",
+                                            "note": "# sychronized关键字\n\nsychronized关键字是java中用于同步的关键字。主要用法为同步代码块和同步代码方法。\n\n## 同步代码方法\n···\nclass Demo{\n//修饰实例方法\nsychronized void test(){\n\t}\n//修饰类方法\nsychronized static void test1(){\n\t}\n    \n    \n}\n···\nsychronized 用于同步代码方法时，其底层实现为同步方法常量池增加ACC_SYNCHRONIZED关键字，如果其他线程想要调用这个方法时，首先要获取调用该方法的对象的锁(静态方法为获取类对象锁)\n\n## 同步代码块\nsychronized 用于同步代码块时，同步代码块使用monitorenter和monitorexit两个关键字获取锁和释放锁。\nsychronized在同步代码块时，会根据以下规则选择被锁的对象\n\n当传入对象时，锁住当前对象\nsychronized (object)\n在静态同步方法内，锁住当前类对象\n在普通方法内 锁住当前对象\n\n## sychronized底层实现逻辑对象监视器\nsychronized底层采用的是对象监视器机制对线程进行同步。\n\n如果当前对象被某一个线程所占有，则其他线程进入阻塞状态等待。并且这种阻塞等待是不可被中断的。\n\nsychronized关键字既然是采用阻塞方法保证线程的同步，那么必然会涉及到线程的调度。线程从阻塞态变成就绪态再到执行状态，没有乐观锁的线程从就绪态到执行状态这种更直接的方式效率高\n\n## 锁升级 锁降级无意义在GC的时候发生\n\n### 偏向锁\n\n### 轻量级锁\n\n### 重量级锁\n\n### 锁消除\n 如果JVM检测到某个对象不会被多个线程访问的话自动把锁去掉\n### 锁粗化\n\nlock comxchg\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                                            "progress": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tg7zyd400",
+                                            "created": 1583199687972,
+                                            "text": "轻量级同步volitile"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1gdlinowoo0",
+                                            "created": 1584779924544,
+                                            "text": "park",
+                                            "note": "# Park 和unPark\n\npark类似于锁\n\n情况1 \nthreadA.park threadA 将阻塞在 park操作上 ，结束阻塞有两种方法，第一种是被中断，第二种 其他线程调用 unpark\n\n情况2 \n\nthreadA.unpak 有线程对A线程调用了unpark,这个时候，如果线程A被park了\n\nthreadA.park 线程A并不会被阻塞到park上。\n\n\n## 生产者消费者场景\n场景：1\n    \n    消费者先park等待\n    生产者生产完后unpark消费者\n    消费者不会阻塞在park上\n    \n场景：2 \n\t生产者先生产了产品\n    unpark\n    消费者准备好了，消费者park\n    此时由于消费者之前被unpark了，不会阻塞在park上\n    \n总结 对线程的park和unpark只要成对出现，不在乎出现的顺序 线程就不会阻塞，\n\t\n\n\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgcc0h3c0",
+                                            "created": 1583199697408,
+                                            "text": "非阻塞同步"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c115j0a93js0",
+                                                    "created": 1583233759592,
+                                                    "text": " CAS",
+                                                    "expandState": "expand",
+                                                    "note": "# CAS 介绍\n\n## CAS基本概念\nCAS 比较和替换,其中涉及到3个操作数，\n内存地址 V\n旧的预期值 A\n新值B\n\n具体的更新过程是 首先拿A与V的地址值比较，如果相等则更新V的值为B，如果不相等，更新失败\n\n## CAS缺点\n\n1 ABA问题 可以采用增加时间戳的方法避免\n\n2 高并发场景下 V！=A的概率比较大，会导致大量线程的自旋\n\n3 只能同步一个变量，不适用于同步多个变量的成场景！"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c115f303msg0",
+                                                            "created": 1583233452052,
+                                                            "text": "AQS"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115fe8ygtc0",
+                                                    "created": 1583233476532,
+                                                    "text": "theadLocal"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115fjqjh7k0",
+                                                    "created": 1583233488479,
+                                                    "text": "常量"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1g4tgq483c0",
+                                    "created": 1584755157262,
+                                    "text": "线程方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1g4tm4rd600",
+                                            "created": 1584755169031,
+                                            "text": " "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c1g4tt3gy800",
+                                            "created": 1584755184190,
+                                            "text": "interrupt",
+                                            "note": "# 中断方法\n\n1 本线程之外的其他线程调用这个方法时，会执行线程安全检查，如果调用该方法的线程没有权限，则抛出异常\n\n2 当线程A阻塞在wait()方法,join()方法或者sleep() 方法时，线程B调用该方法时，线程A的中断标记会被清除，然后线程A会收到 InterruptedException\n\n3 当线程A在InterruptibleChannelIO上阻塞时，线程B调用该方法，IO流将被关闭，线程的中断标记将被设置，并且收到ClosedByInterruptException异常\n\n4 当线程A在Select上阻塞时，线程B调用该方法时，线程A的中断标记被设置，且线程A马上从Select返回。\n\n5 如果非 2，3，4三种情况，线程的中断标记会被设置\n\n6 中断一个不是活跃状态的线程没有意义！\n\n总结，线程在被中断时，可能处于不同的环境下，针对这些不同的环境，从资源回收和最大利用的角度上，需要采用不同的方法，例如，线程如果阻塞在IO上，如果只是简单的结束线程，IO的资源就不能被很好的释放，所以Java虚拟机为我们做好了这一切。\n\n"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c1glho1hdj40",
+                                    "created": 1584802191685,
+                                    "text": "中断",
+                                    "note": "# Java线程中断\n\nJava线程中的中断与操作系统中的中断不太一样，操作系统的中断是指当前线程放弃CPU，去执行中断程序。\n\n而Java中的中断则是在操作系统之上的又一层抽象。\n\nJava中的线程在收到其他线程的中断处理后，可以选择让出CPU，Thread.yield()\n\n同时也可以选择抛出异常！，清除中断位标记等。\n\n总体来说，Java中的线程在不同的场景对中断的处理不一样，具有很大的灵活性\n\n例如 \n\n线程A在wait,sleep,join 阻塞时被中断会抛出中断异常，并且把中断位清除\n\n\n\n"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c10t3gpiwog0",
+                            "created": 1583198688199,
+                            "text": "对象克隆",
+                            "note": "1 为什么要进行对象复制呢？直接New一个对象出来不行吗？\n答：对象复制适用于那些需要创建一个拥有当前状态的对象，而直接new一个对象，对象的所有属性都处于初始化状态。\n\nJava克隆时，对于克隆后的a,b两个对象，如果对象里都是byte char String long ,int 等 a对象更改这些基本属性，不会影响到b的值\n\n当对象a里有引用对象的时候，如果人为的改变次引用类型的值，则可能影响到b的值。\n\n如果一个对象有多层引用关系时，这个时候需要引用的子对象先实现clone接口，然后在当前对象实现子对象的克隆，来实现多级对象复制（深复制）\n\n解决多层复制的的另外一个方法是实现对象序列化。\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c13c22o3its0",
+                                    "created": 1583455300275,
+                                    "text": "深复制"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c13c265jkew0",
+                                    "created": 1583455307860,
+                                    "text": "浅复制"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c13ktws0rs00",
+                                    "created": 1583480050527,
+                                    "text": "序列化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c10t4kt2ryg0",
+                            "created": 1583198775485,
+                            "text": "集合"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10t4nqtig80",
+                                    "created": 1583198781878,
+                                    "text": "map"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10u4vxcriw0",
+                                            "created": 1583201620798,
+                                            "text": "HashMAP",
+                                            "note": "HashMap与hashTable一样，提供了Map的基础操作，并且支持Key为null,value为null的情况。它与hashTable的区别在于不支持多线程操作。hashMap不能保证元素的插入顺序和取出顺序是一致的。\n\nhashMap能够在常数时间内查找元素，遍历hashMap与hashMap中元素的个数成正比。\n\nhashMap有两个很重要的参数，初始容量和负载因子，初始容量指的是hashMap中桶的数量（不是hashMap中所有所有元素的数量），负载因子是指当HashMap中被用到的桶占总的桶数的比例所设定的阈值，当HashMap中这个比例达到设定的阈值时，此时需要自动扩容。\n\n作为一个通用的规则，默认0.75的负载因子在时间和空间的花销上做了一个均衡，高的负载因子可以减少在空间的开销，但是增加了查找的开销。当设定map的初始大小时，应该充分考虑map需要容纳的实体数量和负载因子。当map的初始容量原大于容器所需要装纳的实体乘以负载因子时，就不需要扩容。\n\n通常来说，创建一个大点的map以容纳足够多的元素的方式比一开始创建一个容量比较小，后期扩容的方式要高效的多。当多个key映射到一个hashCode时，会影响map的性能，为了减少这种冲突，当key是可比较的时候，\n\n由于此Map没有实现同步功能，当多个线程并发的访问hashMap是 ，尤其是当一个线程修改了hashMap的结构（修改HashMap的结构指的是增加或减少了一个key-value对，如果只是针对一个已经在hashMap中的key ,更新其对应的value，不属于修改HashMap的结构），\n通常需要在影响hashMap的key-value上做同步。\n\n如果不能用以上的方法做同步的话，需要使用Collections.synchronizedMap(new HashMap(...))做同步。\n\nHashMap的迭代器是基于fail-fast机制的，在迭代器被创建之后，如果通过迭代器以外的方法修改了map的结构，则迭代器马上刨出异常！\n\n不能保证迭代器的fail-fast机制在任意情况下都能准确的抛出异常。所以不能依赖迭代器的fail-fast机制保证程序的正确性，正确的做法是使用fail-fast机制可以用来检测程序bug。\n\n\n\nNode<K,V> [] table\n\nHashMap resize \n\n当HashMap中的元素的个数大于 设定的负载阈值时，此时需要扩容。考虑一种极端的情况。对于一个容量为16，负载因子为0.75的HashMap,存入的数量超过11个时，此时需要扩容。\n\n\n\n\n\n\n"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c115gxzfw480",
+                                                    "created": 1583233597856,
+                                                    "text": "hash方法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115h0i98aw0",
+                                                    "created": 1583233603348,
+                                                    "text": "扩容机制"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115h4tpqxc0",
+                                                    "created": 1583233612748,
+                                                    "text": "红黑树 "
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10u4yd3gwo0",
+                                            "created": 1583201626103,
+                                            "text": "TreeMap"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c14lzpcqboo0",
+                                            "created": 1583584885617,
+                                            "text": "CurrentHashMap",
+                                            "note": "HashTable在修改get和Put方法都使用了synchornizd 关键字，这样每次get或者put的时候都需要锁定整个hashMap,这样的成本是很高的。\n\nCurrentHashMap(CHM)\nCHM 在取出元素时没有实现同步，所以会出现刚刚取出的值被更改或者被删除的情况。CHM的获取元素的结果，受到在CHM其他操作的影响（可能被修改，也可能被删除）。对CHM中的数据的修改happen-before 对CHM中数据的获取。\n\n在CHM中 对于批量操作（putall or clear）,获取的结果可能是批量操作后增加或删除的部分结果。同样，在一个线程创建迭代器之后，其他线程针对CHM的修改也不会抛出异常。时刻警惕，在没有其他线程并发修改CHM的前提下，size,empty等方法才能返回当前正确的结果。\n\n与hashTable一样，CHM中不允许null值作为key或者value的值,而HashMap是允许key值或者value值为空的\n\n如果只关心CHM的Key集合，可以用entrySet方法获取CHM的key集合\n\nCHM中插入元素时，锁定的是什么？锁定的是链表的头结点。\n\n\n\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10u533yjy80",
+                                            "created": 1583201636435,
+                                            "text": "LinkedHashMap"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c115ihj6m000",
+                                                    "created": 1583233718773,
+                                                    "text": "hash方法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115ijsr09s0",
+                                                    "created": 1583233723705,
+                                                    "text": "扩容机制"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c115ina6b6o0",
+                                                    "created": 1583233731289,
+                                                    "text": "具有的特性"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c115irqijyo0",
+                                                            "created": 1583233740984,
+                                                            "text": "LRU"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c10t4qjk6tc0",
+                                    "created": 1583198787970,
+                                    "text": "List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c1gz8s60fp40",
+                                            "created": 1584840990927,
+                                            "text": "阻塞队列",
+                                            "note": "# 阻塞队列\n\n队列为消费者-生产者模式提供了支持，特殊场景分为两种\n1 当队列为空时，消费者不能消费，只允许生产者放入\n2 当队列满时，生产者不能生产，只允许消费者消费\n\nBlockingQueue 在以上两种场景中有四中不同的策略支持不同的需求\n\n1 抛出异常\n2 返回特殊值\n3 阻塞\n4 超时\n\nBlockingQueue 不接受空值，在add，put ,offer时传空值会抛出异常。空值在阻塞队列中表示poll方法的一个错误。\n\nBlockingQueue通常有一个容量，如果不设定容量，通常容量的大小为INTERGER.MAX\n\n## 方法\n\n1 add() 插入成功时返回true,当队列满了，插入不成功是抛异常\n2 offer() 插入成功时返回true,当队列满了，插入不成功时返回false,当使用容量限制的队列时，推荐使用此方法\n3 put() 插入队列中元素，如果不成功就一直等待，直到插入成功为止\n4 offer(Time)等待一段时间后才返回结果\n\n5 take() 取列头结点，如果取不到就一直阻塞\n\n6 poll() 取列头结点，如果取不到会等待一段时间\n\n7 remove() 移除特定元素，这个方法不是很高效。\n\n8 drainTo() 从队列中删除，转移到一个新的容器里面\n\n\n## 阻塞队列的场景\n\n1 取数据\n2 放数据\n3 检查存在性\n4 遍历队列\n\n\n## 阻塞队列遍历\n\n实行遍历时会创建一个迭代器链，\n迭代器链中保存着对迭代器的弱引用，\n这种处理方法和threadLocal里如出一辙。\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c10t4rt30o00",
+                                    "created": 1583198790722,
+                                    "text": "set"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c10t1pn36pc0",
+                    "created": 1583198550914,
+                    "text": "jvm"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c10t208e7ww0",
+                            "created": 1583198573970,
+                            "text": "Java虚拟机模型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t25bp16w0",
+                            "created": 1583198585053,
+                            "text": "垃圾回收机制",
+                            "note": "# 干死面试官系列之垃圾回收\n\n1 垃圾回收器的发展原因和方向\n原因：随着jvm需要管理的堆内存的越来越大，导致了垃圾回收器的更新迭代\n\n方向：从分代算法到非分代算法\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10t5jwhcpk0",
+                                    "created": 1583198851878,
+                                    "text": "对象存活",
+                                    "note": "# 对象存活\n\n## 怎么判断对象存活"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10t5psz4yo0",
+                                    "created": 1583198864727,
+                                    "text": " 垃圾回收器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10t6jpy2bc0",
+                                            "created": 1583198929847,
+                                            "text": "topic"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2i2r4800",
+                            "created": 1583198612811,
+                            "text": "并发"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2ohp2e00",
+                            "created": 1583198626775,
+                            "text": "类加载",
+                            "note": "Java类加载器机制的基本框架\n\n编写日常插件需要注意的问题\n\n类加载中的问题\n\n为什么要有双亲委派模型呢？\n答：Java语言为了确保一些最基础的类被加载后，才能加载在这些类基础之上的其他的类。为此定义了一种规则，这种规则要求如果要加载一个类，需要判断系统是否已经加载过这个类，如果系统已经加载过这个类了，那么就不需要再去加载，以免引起混淆！"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2qxlo5c0",
+                            "created": 1583198632091,
+                            "text": "调优"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c10t2xy0mlk0",
+                            "created": 1583198647353,
+                            "text": "java内存模型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c10tdymeuxc0",
+                                    "created": 1583199510834,
+                                    "text": "volitile关键字"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10te5734eo0",
+                                    "created": 1583199525145,
+                                    "text": "先行发生原则"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c10tev0llls0",
+                                    "created": 1583199581349,
+                                    "text": "Java锁机制"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c10tgln2i800",
+                                            "created": 1583199717668,
+                                            "text": "乐观锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgpxxn9s0",
+                                            "created": 1583199727032,
+                                            "text": "悲观锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgs7nec00",
+                                            "created": 1583199731973,
+                                            "text": "独占锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10tgzyo2xc0",
+                                            "created": 1583199748844,
+                                            "text": "共享锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10th2nz2kg0",
+                                            "created": 1583199754728,
+                                            "text": "公平锁"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c10u0lqrag00",
+                                            "created": 1583201285174,
+                                            "text": "锁优化"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bs8yq07c0",
+                    "created": 1583454530336,
+                    "text": "Java特性",
+                    "layout_mind_offset": {
+                        "x": -544,
+                        "y": -42
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bu7maasg0",
+                            "created": 1583454684136,
+                            "text": "封装性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bu95shyo0",
+                            "created": 1583454687492,
+                            "text": "继承性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bud3azu80",
+                            "created": 1583454696049,
+                            "text": "多态"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bsgxtrds0",
+                    "created": 1583454547696,
+                    "text": "面向对象六大原则"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bui43bpc0",
+                            "created": 1583454706980,
+                            "text": "开闭原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvdj5nm00",
+                            "created": 1583454775371,
+                            "text": "里氏替换原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvj8tj540",
+                            "created": 1583454787807,
+                            "text": "依赖倒转原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvpzv4u80",
+                            "created": 1583454802503,
+                            "text": "接口隔离原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvsyvot40",
+                            "created": 1583454808974,
+                            "text": "最少知道原则"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13bvxj23bk0",
+                            "created": 1583454818901,
+                            "text": "单一职责原则"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bumoongg0",
+                    "created": 1583454716932,
+                    "text": "设计模式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bzxbwmh40",
+                            "created": 1583455131925,
+                            "text": "创建型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13c01kcy5c0",
+                            "created": 1583455141144,
+                            "text": "行为型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c13c056zmio0",
+                            "created": 1583455149042,
+                            "text": "结构型"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c1s49xfikqw0",
+                    "created": 1585972345823,
+                    "text": "spring",
+                    "note": "# spring\n\n1 spring 中beafactory和factoryBean的区别\n\n2 spring上下文的含义以及 ClassPathXmlContext 和 注解上下文之间的关系和区别，他们是不是公用一个beanDefination ,是不是共用工厂，是不是公用其他东西 我觉得不是的\n\n"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}

@@ -1,0 +1,1303 @@
+{
+    "root": {
+        "data": {
+            "id": "c13bo1lhzps0",
+            "created": 1583454200842,
+            "text": "中间件",
+            "note": "知荣辱，勤锻炼，打造技术硬实力！"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c13bo4si9k00",
+                    "created": 1583454207797,
+                    "text": "Netty",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": 97,
+                        "y": 207
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c32c2eh4s6g0",
+                            "created": 1590666082898,
+                            "text": " 存储",
+                            "layout_right_offset": {
+                                "x": -4,
+                                "y": -38
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c32cabyehu00",
+                            "created": 1590666704326,
+                            "text": "channel",
+                            "layout_right_offset": {
+                                "x": 7,
+                                "y": -36
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c32cc32rkyw0",
+                                    "created": 1590666841727,
+                                    "text": "生命周期",
+                                    "layout_right_offset": {
+                                        "x": 160,
+                                        "y": -111
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c32cc4xp87c0",
+                                            "created": 1590666845774,
+                                            "text": "创建未注册"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cc85osqw0",
+                                            "created": 1590666852787,
+                                            "text": "创建已注册"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cccr5x400",
+                                            "created": 1590666862793,
+                                            "text": "处于活动状态"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cco90rwo0",
+                                            "created": 1590666887817,
+                                            "text": "未连接"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c32cbiffhqg0",
+                            "created": 1590666796780,
+                            "text": "同步和异步",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 62,
+                                "y": 79
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c32ce8zywuw0",
+                            "created": 1590667011347,
+                            "text": "channelHadler",
+                            "layout_right_offset": {
+                                "x": 53,
+                                "y": -134
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c32cej3k2g80",
+                                    "created": 1590667033331,
+                                    "text": "生命周期",
+                                    "layout_right_offset": {
+                                        "x": 40,
+                                        "y": 19
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c32cetvn2vk0",
+                                            "created": 1590667056797,
+                                            "text": "被添加到pipline"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cezeef400",
+                                            "created": 1590667068816,
+                                            "text": "被移除pipeline"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c32cf6htpk00",
+                                            "created": 1590667084260,
+                                            "text": "在pipeline中抛异常"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c32cagkpvw00",
+                            "created": 1590666714382,
+                            "text": "eventloopgroup",
+                            "layout_right_offset": {
+                                "x": 90,
+                                "y": -124
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bogqf2ds0",
+                    "created": 1583454233792,
+                    "text": "ES",
+                    "layout_mind_offset": {
+                        "x": 56,
+                        "y": -898
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6i68zsl3m00",
+                            "created": 1603243107457,
+                            "text": "基础概念",
+                            "layout_right_offset": {
+                                "x": -75,
+                                "y": -173
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6i69761c9c0",
+                                    "created": 1603243123507,
+                                    "text": "存储"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i69ams9jk0",
+                                            "created": 1603243131050,
+                                            "text": "文档",
+                                            "note": "# 文档\nES中的文档类似于关系型数据库里的一行记录，不同的是，文档的结构不像MySQL中的模式定义的那么死板，所有的文档中，相同的字段必须具有相同的数据格式，并且允许一个文档中有多个相同的字段，一个文档中多个相同的字段也叫做多值字段。\n\n在索引中，文档的标识是由ES生成的唯一标识和文档类型确定的。话句话说，文档类型不一样的两个文档，可能拥有同一个文档标识。\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6ku3dqjc0",
+                                            "created": 1603244035418,
+                                            "text": "索引",
+                                            "note": "# 索引\nES的索引类似于mongoDb的一个文档，索引可能分布在不同的机器，一个索引可能有不同的分片"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i69c4luw80",
+                                            "created": 1603243134304,
+                                            "text": "词"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i69g3yn2o0",
+                                            "created": 1603243142972,
+                                            "text": "字段"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i69hkc2bk0",
+                                            "created": 1603243146139,
+                                            "text": "标记"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6z066xa00",
+                                            "created": 1603245145747,
+                                            "text": "映射",
+                                            "note": "# 映射\n\n映射的主要作用是存储字段的类型信息，在查询分析中，根据字段不同的类型，选择不同的策略查找。"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72fochm00",
+                                            "created": 1603245414589,
+                                            "text": "分片"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72ief8280",
+                                            "created": 1603245420519,
+                                            "text": "副本"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72jk7rg80",
+                                            "created": 1603245423046,
+                                            "text": "集群"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i72nglt6g0",
+                                            "created": 1603245431535,
+                                            "text": "时光之门"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i69kndk0g0",
+                                    "created": 1603243152853,
+                                    "text": "倒排索引"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6abjbi1k0",
+                                            "created": 1603243211381,
+                                            "text": "存储"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6i6adjrc5c0",
+                                                    "created": 1603243215761,
+                                                    "text": "词向量"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6i6ahc5yi80",
+                                                    "created": 1603243224010,
+                                                    "text": "文档值"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i6bm9vngg0",
+                                    "created": 1603243313119,
+                                    "text": "输入分析"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6d4mbt1s0",
+                                            "created": 1603243431418,
+                                            "text": "分词器"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6dado3js0",
+                                            "created": 1603243443955,
+                                            "text": "标记过滤器"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6deswgww0",
+                                            "created": 1603243453583,
+                                            "text": "字符映射器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i6ewx2fbc0",
+                                    "created": 1603243571382,
+                                    "text": "查询",
+                                    "note": "# 查询\n\n在查询时，可能对于需要查询的词进行分析，比如查询 lightRed这个词，如果不分析 则直接查询 lightRed整词，如果进行分析，则可能分别查询 light 和 red 两个词\n\n在查询时，查询的粒度需要和建立的索引保持一致，如果建立的索引是基于分词的，则查询是也需要基于分词。"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6ezbw2e80",
+                                            "created": 1603243576631,
+                                            "text": "分析查询"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6i6f0yrnyw0",
+                                            "created": 1603243580191,
+                                            "text": "不分析查询"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i6j7omrvk0",
+                                    "created": 1603243908273,
+                                    "text": "评分",
+                                    "layout_right_offset": {
+                                        "x": -9,
+                                        "y": 7
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6i6jh3ngh40",
+                                            "created": 1603243928772,
+                                            "text": "TF/IDF"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6i70i7hwxc0",
+                            "created": 1603245263372,
+                            "text": "性能"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6i70nemzy80",
+                                    "created": 1603245274688,
+                                    "text": "存储亿计的文档"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6i70yqonog0",
+                                    "created": 1603245299361,
+                                    "text": "每秒百计的查询请求"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bojfviqw0",
+                    "created": 1583454239684,
+                    "text": "RPC",
+                    "layout_mind_offset": {
+                        "x": 71,
+                        "y": -72
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c13boq8fp2o0",
+                    "created": 1583454254472,
+                    "text": "MQ ",
+                    "layout_mind_offset": {
+                        "x": 10,
+                        "y": 61
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bpbzmuq80",
+                            "created": 1583454301829,
+                            "text": "kfaka"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c54ucqlpwsg0",
+                            "created": 1598233109711,
+                            "text": "RocketMQ"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c54ucwjopco0",
+                                    "created": 1598233122648,
+                                    "text": "写端"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c54udgf025s0",
+                                            "created": 1598233165901,
+                                            "text": "写失败重试"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c54ud25caxs0",
+                                    "created": 1598233134842,
+                                    "text": "读端"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c54udn9jkgo0",
+                                            "created": 1598233180808,
+                                            "text": "消费失败重试"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c54ud3s7xy00",
+                                    "created": 1598233138402,
+                                    "text": "broker",
+                                    "layout_right_offset": {
+                                        "x": 5,
+                                        "y": 10
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c54uda4hoew0",
+                                            "created": 1598233152204,
+                                            "text": "数据存储"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c54udtzhh1s0",
+                                                    "created": 1598233195437,
+                                                    "text": "commitlog",
+                                                    "layout_right_offset": {
+                                                        "x": 11,
+                                                        "y": -12
+                                                    }
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c54udwbj6f40",
+                                                    "created": 1598233200519,
+                                                    "text": "consumeQueue"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c54ue0b5dwg0",
+                                                    "created": 1598233209203,
+                                                    "text": "indexHash",
+                                                    "layout_right_offset": {
+                                                        "x": 5,
+                                                        "y": 20
+                                                    }
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5a5brpw4jc0",
+                            "created": 1598771865768,
+                            "text": "RabitMQ"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c5a5bxfoszk0",
+                            "created": 1598771878212,
+                            "text": "JMQ"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c13bpr0dc400",
+                    "created": 1583454334525,
+                    "text": "ZK",
+                    "layout_mind_offset": {
+                        "x": -357,
+                        "y": -207
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6gvkg2j4a80",
+                            "created": 1603111412726,
+                            "text": "CP"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c18w867mt5s0",
+                    "created": 1584020000153,
+                    "text": "数据库",
+                    "layout_mind_offset": {
+                        "x": -146,
+                        "y": -135
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c18w8anrr6o0",
+                            "created": 1584020009836,
+                            "text": "数据库隔离级别",
+                            "note": "# 数据库隔离级别\n\n1 读未提交(具体场景)\n2 读已提交(具体场景)\n3 可重复读\n4 序列化\n已上4种场景只是数据库隔离级别的要保证的目标而已，想要达到这种目标(比如可重复读)，在不同的场景可能要采取不同的办法，比如使用快照技术，在选择更新的场景需要用到读锁，锁是用来实现同步的一个手段，单不是唯一手段！\n\n\n## 背景 (基本问题)\n\n关系数据库中，涉及到对表的操作有读操作，更新操作，插入操作，删除操作\n\n具体可以分为两种场景\n1 读时不能进行更新，插入和删除\n \n2 读时可以进行更新，插入和删除\n\n\n隔离级别\t脏读可能性\t不可重复读可能性\t幻读可能性\t加锁读\nREAD UNCOMMITTED\t是\t是\t是\t否\nREAD COMMITTED\t否\t是\t是\t否\nREPEATABLE READ\t否\t否\t是\t否\nSERIALIZABLE\t否\t否\t否\t是\n\n## InnoDB锁类型和\n\n\n",
+                            "layout_left_offset": {
+                                "x": -62,
+                                "y": -60
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c18w8kmlads0",
+                                    "created": 1584020031532,
+                                    "text": "读未提交"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c18w8o34z8w0",
+                                    "created": 1584020039063,
+                                    "text": "读已提交"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c18w8r70ac80",
+                                    "created": 1584020045827,
+                                    "text": "可重复读"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c18w8um8qpc0",
+                                    "created": 1584020053279,
+                                    "text": "串行读"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5a5818hr740",
+                            "created": 1598771573027,
+                            "text": "索引"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5a5861h8gw0",
+                                    "created": 1598771583487,
+                                    "text": "索引分类"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5a58cf0jqg0",
+                                            "created": 1598771597366,
+                                            "text": "存储"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5a58wyj7400",
+                                                    "created": 1598771642082,
+                                                    "text": "聚集索引"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5a592b2gdk0",
+                                                    "created": 1598771653724,
+                                                    "text": "非聚集索引"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5a58gtr7ao0",
+                                            "created": 1598771606964,
+                                            "text": "组织方式"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5a59bk9u0w0",
+                                                    "created": 1598771673871,
+                                                    "text": "B 树或B+树"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5a59llolhk0",
+                                                    "created": 1598771695724,
+                                                    "text": "hash索引"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5a59sb4iko0",
+                                                    "created": 1598771710323,
+                                                    "text": "二叉树"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5a58lvf3n40",
+                                            "created": 1598771617949,
+                                            "text": "存储元素"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5a59x09mao0",
+                                                    "created": 1598771720551,
+                                                    "text": "密集索引"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5a5a0im9340",
+                                                    "created": 1598771728191,
+                                                    "text": "稀疏索引"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c5a5bd6pia00",
+                    "created": 1598771834133,
+                    "text": "redis",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c13bob6s3so0",
+                            "created": 1583454221720,
+                            "text": "缓存机制",
+                            "expandState": "expand",
+                            "layout_left_offset": {
+                                "x": -60,
+                                "y": 86
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c13brmpftco0",
+                                    "created": 1583454481886,
+                                    "text": "更库，更缓存"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c55ofkrnbs00",
+                                    "created": 1598317965398,
+                                    "text": "删缓存，更库"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c55ofqm28pk0",
+                                    "created": 1598317978121,
+                                    "text": "更库，删缓存"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c55ofviij2o0",
+                                    "created": 1598317988790,
+                                    "text": "过期机制"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6gvjuirlgw0",
+                            "created": 1603111365818,
+                            "text": "模式",
+                            "layout_left_offset": {
+                                "x": -85,
+                                "y": 95
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6gvk0e63z40",
+                                    "created": 1603111378601,
+                                    "text": "集群"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6gvk833rs00",
+                                            "created": 1603111395346,
+                                            "text": "AP"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6gvk2b48tc0",
+                                    "created": 1603111382770,
+                                    "text": "单机"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6gvk47wunc0",
+                                            "created": 1603111386930,
+                                            "text": "CP"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5a5cy3ivds0",
+                            "created": 1598771958017,
+                            "text": "数据完整性",
+                            "layout_left_offset": {
+                                "x": -89,
+                                "y": 189
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5a5cuzorkg0",
+                                    "created": 1598771951255,
+                                    "text": "主从复制",
+                                    "layout_left_offset": {
+                                        "x": 7,
+                                        "y": -27
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6o539ln2g80",
+                                    "created": 1603849197249,
+                                    "text": "持久性",
+                                    "layout_left_offset": {
+                                        "x": -18,
+                                        "y": 20
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6npgob5pns0",
+                                            "created": 1603805110242,
+                                            "text": "RDB内存快照",
+                                            "note": "#RDB\n\n## 1 RDB是什么\nRDB是redis的一种持久化方式，把内存中的数据生成快照并存储到磁盘中。\n在数据库崩溃需要重新读入文件时，需要读取最近一次的存档记录。\n\n## 2 为什么使用RDB(主要的优势和场景)\n如果丢失一部分数据不会对应用程序造成很大的影响，可以采用这种方式进行备份。\n\n## 3 怎么使用RDB\nRDB的持久化主要依靠两个命令 Save 和Bgsave ，save 会终止当前所有的请求，bgsave会重新开启一个进程进行备份。\nsave 和 bgsave可以通过设置的方式进行周期性的备份。\n\n## 4 RDB的缺点\nsave命令会终止当前所有的请求，专心开始执行持久化工作，这个时候系统是不可用的。所以一般这个命令是不用的，除非在请求量比较少的时候，save命令花费的时间比较小。\n\nbgsave是重新创建一个进程，与主线程一块进行操作，但是当内存比较大时，创建进程所需要的时间会很长，再加上多进程处理，花费的时间往往比save命令多一些。"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6npgud6f8o0",
+                                            "created": 1603805123425,
+                                            "text": "AOF",
+                                            "note": "# AOF\n\n## 1 AOF是什么\nAOF是redis的一种持久化机制，通过把redis命令同步到硬盘文件，完成存储\n\n## 2 为什么是AOF\nAOF 可以设置刷盘的频率和时间，如果说设置每秒一次刷盘的时候，这个时候的性能能够达到最优，对于追求性能的应用来说，是可以满足性能要求的，\n但是 AOF 也可能丢失命令，把刷盘时间设置的足够小，则可以减少丢失数据的概率\n\n\n## 3 怎么做\n设置多长时间进行刷盘，针对硬盘的种类，AOF的性能也是不一样的。\n\n针对AOF文件过大的问题，可以采用定期压缩AOF文件的办法，减少AOF文件所占用的空间。\n\n## 4 缺点\nAOF生成的文件过大，导致数据恢复时，浪费很长时间。\n\nAOF在某些场景下可能会丢失数据。"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6c7cgaq7a00",
+                    "created": 1602636839844,
+                    "text": "分布式理论",
+                    "layout_mind_offset": {
+                        "x": -195,
+                        "y": 365
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6c7cne3uow0",
+                            "created": 1602636855285,
+                            "text": "分布式一致性",
+                            "note": "# 分布式一致性\n\n## 一致性问题\n\n在冯诺依曼计算机体系结构下，CPU对数据进行操作，需要先从内存把数据读取，在进行运算完成之后，需要把数据再次写入到内存，由于内存是可以被多个CPU共享的，多个CPU对内存进行读写可能导致数据的错乱，因此，在单机多CPU的条件下，对共享数据进行加锁成为维护数据一致性的重要手段。但是加锁会导致锁竞争，从而降低系统的性能。\n\n在分布式环境中，通常处理事务的最小单位由原来的单机变成了由很多机器组成的集群，这样，机器与机器之间的通信成本比原来单机时代高了很多，同时也增加了很多不确定性。此时，单机时代的很多问题会被放大。\n\n在单机时代，所有的事务的处理都在一个单机上，事务对数据的依赖只有内存，如果内存的性能足够好，且不发生物理损坏的情况下，我们能够很轻松的保持数据的一致性\n\n强一致性\n写入立即可读，典型的场景是火车票\n\n弱一致性\n写入不保证立即可读\n\n最终一致性\n写入不保证立即可读，但是会承诺在未来的一段时间内是可读的。典型场景是银行转账。",
+                            "layout_left_offset": {
+                                "x": -3,
+                                "y": -62
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c82rh716o0",
+                                    "created": 1602638901648,
+                                    "text": "强一致性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c82vprm080",
+                                    "created": 1602638910873,
+                                    "text": "弱一致性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c82y6v48o0",
+                                    "created": 1602638916260,
+                                    "text": "最终一致性"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6c7d5fzxuw0",
+                            "created": 1602636894582,
+                            "text": "分布式环境的问题"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c8b4yyck00",
+                                    "created": 1602639557933,
+                                    "text": "通信异常"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6c8cu5vr200",
+                                            "created": 1602639691135,
+                                            "text": "网络延迟"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8cvxy64g0",
+                                            "created": 1602639695009,
+                                            "text": "数据错乱"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8b6tm2hs0",
+                                    "created": 1602639561963,
+                                    "text": "网络分区"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8bb8s23c0",
+                                    "created": 1602639571588,
+                                    "text": "请求三态"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6c8buyjggw0",
+                                            "created": 1602639614504,
+                                            "text": "请求成功"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8bxecow80",
+                                            "created": 1602639619814,
+                                            "text": "请求失败"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8bzvmsso0",
+                                            "created": 1602639625212,
+                                            "text": "请求超时"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8bkm3pog0",
+                                    "created": 1602639591984,
+                                    "text": "节点故障"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6c7ddvarpk0",
+                            "created": 1602636912921,
+                            "text": "分布式事务"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c8ehomli00",
+                                    "created": 1602639820699,
+                                    "text": "保证ACID"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6c7dhtvzew0",
+                            "created": 1602636921543,
+                            "text": "CAP&Base理论"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6c8eu8hbd40",
+                                    "created": 1602639848021,
+                                    "text": "CAP",
+                                    "layout_left_offset": {
+                                        "x": -7,
+                                        "y": 7
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6c8f1tphwg0",
+                                            "created": 1602639864542,
+                                            "text": "C 一致性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8f3dljjs0",
+                                            "created": 1602639867921,
+                                            "text": "A 可用性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8f5843xk0",
+                                            "created": 1602639871943,
+                                            "text": "P 分区容错性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6c8huvdd9c0",
+                                            "created": 1602640084498,
+                                            "text": "系统设计时考虑的取舍"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6c8ie22nl40",
+                                                    "created": 1602640126262,
+                                                    "text": "CA"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6c8inaljvc0",
+                                                            "created": 1602640146368,
+                                                            "text": "单机数据库选择"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6c8ifne6sg0",
+                                                    "created": 1602640129728,
+                                                    "text": "AP"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6c8is71r140",
+                                                            "created": 1602640157037,
+                                                            "text": "大多数分布式系统的选择，舍弃强一致性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6c8ih6a7g00",
+                                                    "created": 1602640133047,
+                                                    "text": "CP"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6c8j9ezsy00",
+                                                            "created": 1602640194523,
+                                                            "text": "基本上不去考虑，因为没有保证可用性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6c8evvrl340",
+                                    "created": 1602639851606,
+                                    "text": "BASE",
+                                    "layout_left_offset": {
+                                        "x": -7,
+                                        "y": 33
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6dcdhqikg80",
+                    "created": 1602752586845,
+                    "text": "延迟队列",
+                    "layout_mind_offset": {
+                        "x": 476,
+                        "y": 249
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6dgwq8bmts0",
+                            "created": 1602765378695,
+                            "text": "场景",
+                            "layout_right_offset": {
+                                "x": 70,
+                                "y": 0
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6dgwu2yfx40",
+                                    "created": 1602765387078,
+                                    "text": "关闭空闲连接",
+                                    "layout_right_offset": {
+                                        "x": 5,
+                                        "y": 0
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgx6hwvvs0",
+                                    "created": 1602765414104,
+                                    "text": "清理过期业务数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgxcq0gk80",
+                                    "created": 1602765427654,
+                                    "text": "任务超时处理"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgxht4yuo0",
+                                    "created": 1602765438727,
+                                    "text": "下单后一定时间未支付取消"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgxnwhszk0",
+                                    "created": 1602765451991,
+                                    "text": "下单后一定时间触发事件"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgyb8nxi00",
+                                    "created": 1602765502792,
+                                    "text": "定时任务"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6dgzdpdfv40",
+                            "created": 1602765586520,
+                            "text": "实现方式",
+                            "layout_right_offset": {
+                                "x": 65,
+                                "y": 105
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6dgzk4kwyg0",
+                                    "created": 1602765600501,
+                                    "text": "定期轮询 数据等"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dgzves4yo0",
+                                    "created": 1602765625063,
+                                    "text": "时间轮，kafka实现方式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6dhb3dl77k0",
+                                    "created": 1602766504410,
+                                    "text": "quartz "
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "snow-compact",
+    "version": "1.4.43"
+}
