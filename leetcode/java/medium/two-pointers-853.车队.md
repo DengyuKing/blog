@@ -57,19 +57,74 @@
  * 这个题的数组 position变动时，speed也要一起变动，所以常规的排序算法是不能用的，需要实现一个特殊的排序方法，实现两个数组联动。
  * 
  */
-
 // @lc code=start
 class Solution {
     public int carFleet(int target, int[] position, int[] speed) {
+        if (position== null || position.length ==0){
+            return 0;
+        }
+
+        quickSort(position,speed,0,piles.length-1);
+        return findCarNums(position,speed,target);
 
     }
+   
+    public int findCarNums(int [] position,int [] speed,int target) {
+        int sum = 1;
+        int flag = position.length -1;
+        for (int i = position.length-2;i>=0;i--) {
+            int a1 = (target-position[flag])/speed[flag];
+            int a2 = (target-position[i])/speed[i];
+            if(a1<a2) {
+                sum ++;
+                flag = i;
+            }
+        }
 
-    public int partition(int [] position, int [] speed,int l,int r) {
-       int tmp =  position[l];
-       while (l<r) {
-           
-       }
+        return sum;
+    }
+
+
+
+    public void quickSort(int [] position,int [] speed,int l,int r) {
+        if (l<r) {
+            int mid = partition(position,speed, l, r);
+            quickSort(position,speed,l,mid-1);
+            quickSort(position,speed,mid+1,r);
+        }
+    }
+
+    /**
+     * 快拍变种 先按照第一
+     * @param position
+     * @param speed
+     * @param l
+     * @param r
+     * @return
+     */
+    public int partition(int [] position,int [] speed,int l,int r) {
+        int tmp =  position[l];
+        while (l<r) {
+            if (position[l] < tmp){
+                l++;
+            }else if (position[r] >tmp){
+                r --;
+            }else if (position[l] == tmp && position[r] == tmp) {
+                l++;
+            }else {
+                int k = position[l];
+                position[l] = position[r];
+                position[r] = k;
+
+                int sp = speed[l];
+                speed[l] = speed[r];
+                speed[r] = sp;
+            }
+
+        }
+        return l;
     }
 }
+
 // @lc code=end
 
