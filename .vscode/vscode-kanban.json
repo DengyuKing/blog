@@ -1,0 +1,22 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "="
+      },
+      "category": "读书",
+      "creation_time": "2021-12-14T15:22:58.239Z",
+      "description": {
+        "content": "读书笔记",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "读书笔记"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}
