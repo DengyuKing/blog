@@ -1,3 +1,4 @@
+import javax.swing.TransferHandler;
 
 /*
  * @lc app=leetcode.cn id=105 lang=java
@@ -70,11 +71,50 @@
   * 前序序列中可以知道根是那个，中序序列中可以知道是否有左右子树，构建时，先构建左子树，然后构建右子树
   */
 class Solution {
+    static Integer preIndex = 0;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
 
+
+      TreeNode root =  build(preorder, inorder, 0, inorder.length-1);
+      preIndex = 0;
+      return root;
+      
     }
 
-    private TreeNode build()
+    private TreeNode build(int [] preorder,int[] inorder ,int inStart,int inEnd) {
+      // 先找到根节点
+      // 确定左右子树
+      // 构造左右子树
+
+      if (preIndex>= preorder.length || inEnd < inStart) {
+        return null;
+      }
+
+      int i = inStart;
+      while (i<= inEnd) {
+        if (inorder[i] == preorder[preIndex]) {
+          break;
+        }
+
+        i++;
+      }
+
+      TreeNode root = new TreeNode(preorder[preIndex]);
+
+      // 左子树不为NULl
+      if (i > inStart) {
+        preIndex++;
+        root.left = build(preorder, inorder, inStart, i-1);
+      }
+
+      // 右子树不为NUll 
+      if (i < inEnd) {
+        preIndex++;
+        root.right = build(preorder, inorder, i+1, inEnd);
+      }
+
+      return root;
+    }
 }
 // @lc code=end
 
